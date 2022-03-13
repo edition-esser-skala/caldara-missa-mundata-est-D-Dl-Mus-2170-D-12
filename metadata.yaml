@@ -1,0 +1,17 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Mundata est lepra eius
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-12
+    date: 1729
+    rism: 212006720
+    url: https://digital.slub-dresden.de/id426607635
+    license: public domain
+    principal: true
+imslp:
