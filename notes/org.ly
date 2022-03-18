@@ -294,3 +294,210 @@ GloriaBassFigures = \figuremode {
   <7! _+>2 <5+ _+>4 <6 4>
   <5+ \t> <\t _+> <_+>2 %40 finis
 }
+
+LaudamusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    \mvTr e4\fE-\solo-\rip g a
+    h a g
+    dis2 h4
+    e d c
+    h d! e %45
+    fis e d
+    ais2 fis'4
+    h a! g
+    fis ais fis
+    h, dis h %50
+    e g e
+    a a, r
+    a' a, r
+    h' h, r
+    R2.*2 %56
+    r8 a' dis a fis dis
+    h4 a g
+    a h h'
+    e, \mvTr g\pE-\org a %60
+    h a g
+    dis2 h4
+    e d c
+    h d! e
+    fis e d %65
+    ais2 fis'4
+    h a! g
+    \mvTr fis\f-\rip ais fis
+    h, dis h
+    e g e %70
+    a a, r
+    a' a, r
+    h' h, r
+    R2.*2 %75
+    r8 a' dis a fis dis
+    h4 a g
+    a h h'
+    e, r r
+    \mvTr h\p-\org dis h %80
+    e g e
+    d! fis d
+    g h g
+    a c r
+    d d, r %85
+    d' d, d'
+    d d, r
+    d' d, d'
+    d d, r
+    d' d, d' %90
+    d d, r
+    g d d,
+    \mvTr g\fE-\ripE h g
+    c e c
+    d4. a'8 fis d %95
+    g4 d d,
+    g r r
+    R2.*3 %100
+    \mvTr d'4\pE-\orgE fis g
+    a g fis
+    cis2 a4
+    d cis h
+    a cis a %105
+    d fis d
+    g e g
+    fis ais fis
+    h, d? h
+    fis' ais fis %110
+    h, d? h
+    fis'4. e8 d4
+    e fis fis,
+    h dis h
+    e g e %115
+    h dis h
+    e g e
+    h'4. a8 g4
+    a h h,
+    e r e %120
+    fis dis h
+    e r r
+    a h h,
+    \mvTr e\fE-\rip g a
+    h a g %125
+    dis2 h4
+    e d c
+    h d! e
+    fis e d
+    ais2 fis'4 %130
+    h a! g
+    fis ais fis
+    h, dis h
+    e g e
+    a a, r %135
+    a' a, r
+    h' h, r
+    R2.*2
+    r8 a' dis a fis dis %140
+    h4 a g
+    a h h'
+    e, r r\fermata \bar "||" %143 finis
+  }
+}
+
+LaudamusBassFigures = \figuremode {
+  r4 <[6]>2 %41
+  <_+>4 <\t> <[6]>
+  <7> <6> <_+>
+  r <[6]> <6>
+  <_+> <[6]>2 %45
+  \bo <[5+] _+>4 \bc <[\t] \t> <6>
+  \bo <7 [_+]> \bc <6 [\t]> <[5+] _+>
+  r \bo <[6 _+]> \bc <[6]>
+  <_+>2.
+  <[_+]> %50
+  r4 <6> <_+>
+  <5 3> <\t \t>2
+  <6 3>4 <\t \t>2
+  <_+>4 <\t>2
+  r2.*2 %56
+  r8 <6 4+ 2>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <_+>4 <\t> <6>
+  <7> <_+>2
+  r4 <6>2 %60
+  \bo <[_+]>4 <\t> \bc <[6]>
+  <7> <6> <_+>
+  r \bo <[6]> <6\\>
+  \bc <[_+]>4 <6> <6\\>
+  <5+ _+> <\t \t> <6> %65
+  \bo <7 [_+]> \bc <6 [\t]> <[5+] _+>
+  r \bo <[6 _+]> <6>
+  <5+ _+>2.
+  \bc <[_+ \l]>
+  <_!>2 <_+>4 %70
+  <5 3> <\t \t>2
+  \bo <[6 3]>4 \bc <[\t \t]>2
+  <_+>4 <\t>2
+  r2.*2 %75
+  r8 <6 4+ 2>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <_+>4 <\t> <6>
+  r <_+>2
+  r2.
+  <4>4 <6> \bo <[_+]> %80
+  <9> \bc <[6]>2
+  <4>4 <6>2
+  <9>4 <6>2
+  <9>4 <6>2
+  <7>2. %85
+  <6 4>
+  <5 3>
+  <7 5>
+  <6 4>
+  q %90
+  <5 3>
+  r4 <4> <3>
+  r4 \bo <[6 5!]> \bc <[\t \t]>
+  r2.
+  <[7 _+]> %95
+  r
+  r
+  r2.*3 %100
+  r2.
+  <_+>4 \bo <[\t]> <6>
+  \bc <[7]> <6> <[_+]>
+  r <6> <6\\>
+  <[_+]>2. %105
+  r
+  <5>4 <6\\>2
+  <[5+] _+>2.
+  r2.
+  <[5+] _+> %110
+  r
+  <5+ _+>4. <\t \t>8 <6>4
+  \bo <[7]> <5+ 4> \bc <[\t] _+>
+  r4 <[6]> <_+>
+  r2. %115
+  <_+>
+  r
+  <_+>4. <\t>8 <6>4
+  <[7]> <_+>2
+  r2. %120
+  <6\\>4 <[6]> <_+>
+  r2.
+  <7>4 <_+>2
+  r4 <[6]>2
+  <_+>4 <\t> <6> %125
+  <[7]> <6> <_+>
+  r <6> <[6]>
+  <_+> <6>2
+  \bo <[5+] _+>4 <\t \t> \bc <[6]>
+  <7 _+>4 <6 \t> <[5+] _+> %130
+  r <6 [_+]> <6>
+  <[5+] _+>2.
+  <_+>
+  <_!>2 <_+>4
+  r2. %135
+  <6>4 <\t>2
+  <_+>4 <\t>2
+  r2.*2
+  r8 <6 4+ 2>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff %140
+  <_+>4 <\t> <6>
+  <7> <_+>2
+  r2. %143 finis
+}

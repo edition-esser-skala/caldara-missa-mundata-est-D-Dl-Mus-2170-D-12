@@ -233,3 +233,115 @@ GloriaAltoLyrics = \lyricmode {
   bo -- nae vo -- lun -- ta -- _
   _ tis. %40 finis
 }
+
+LaudamusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    R2.*19 %59
+    \mvTr h'4\pE^\solo e, c' %60
+    dis,2 e4
+    r8 c' h[ a g fis]
+    g fis4 e fis8
+    dis4 r r
+    R2. %65
+    r4 r fis~
+    fis fis e
+    fis r r
+    R2.*10 %78
+    r4 h, e~
+    e dis8[ cis] dis([ h)] %80
+    g'4 g g
+    g fis8([ e)] fis([ d)]
+    h'4 h h
+    h a8[ g a g]
+    fis2 g8([ fis)] %85
+    g2.
+    fis4 fis g
+    a2.
+    g2 g4
+    g2. %90
+    fis4.( g8) a4
+    g g fis
+    g r r
+    R2.*7 %100
+    a4 d, h'
+    cis,2 d4
+    r8 h' a[ g fis e]
+    fis e4 d e8
+    cis a'16 a a8([ g)] g fis %105
+    fis4 r r
+    r8 e16 e e8([ d)] d([ cis)]
+    cis4 r cis
+    d8([ cis)] h([ cis)] d[ h]
+    cis[ h ais h cis ais] %110
+    d[ cis h cis d h]
+    ais2 h4~
+    h h ais
+    h r8 fis' dis h
+    h'2.~ %115
+    h~
+    h~
+    h2~ h8[ a]
+    g4 fis4.\trill e8
+    e4 r r %120
+    r8 a h([ a)] g([ fis)]
+    g4. fis8 \once \tieDashed e4~
+    e2 dis8([\trill e)]
+    e4 r r
+    R2.*18 %142
+    R2.\fermata \bar "||" %143 finis
+  }
+}
+
+LaudamusAltoLyrics = \lyricmode {
+  Lau -- da -- _ %60
+  _ mus,
+  lau -- da --
+  _ _ _ mus
+  te,
+  %65
+  lau --
+  da -- mus
+  te.
+
+  Lau -- da -- %79
+  _ mus %80
+  te, be -- ne --
+  di -- ci -- mus
+  te, ad -- o --
+  ra -- _
+  _ mus %85
+  te,
+  glo -- ri -- fi --
+  ca --
+  _ mus
+  te, %90
+  glo -- ri --
+  fi -- ca -- mus
+  te.
+
+  Lau -- da -- _ %101
+  _ mus,
+  lau -- da --
+  _ _ _ mus
+  te, be -- ne -- di -- ci -- mus %105
+  te,
+  ad -- o -- ra -- mus
+  te, glo --
+  ri -- fi -- ca --
+  _ %110
+  _
+  _ _
+  _ mus
+  te, glo -- ri -- fi --
+  ca -- %115
+
+  _ _ mus %119
+  te, %120
+  glo -- ri -- fi --
+  ca -- _ _
+  mus
+  te. %124 finis
+}

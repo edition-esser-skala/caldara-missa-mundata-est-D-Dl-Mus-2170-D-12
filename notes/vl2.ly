@@ -140,7 +140,100 @@ GloriaViolinoII = {
     \tempoEtInTerra cis'4. cis8 d4 r \noBreak
     r d c4. c8
     c4 h!8 a h4 h
-    cis8 a cis4. h8 e4~
+    cis8 ais? cis4. h8 e4~
     e dis e2\fermata \bar "||" %40 finis
+  }
+}
+
+LaudamusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    R2.*4 %44
+    \mvTr fis'4\fE-\tuttiE h, g' %45
+    \appoggiatura h, ais2 h4
+    r8 g'( fis e d cis)
+    d cis4 h cis8
+    fis, fis'4 e d16 cis
+    dis4 h r %50
+    h8 e4 d c!16 h
+    c4 c, r
+    c'8 a'4 g fis16 e
+    fis4. c'!8( h ais)
+    h( gis) a ( fis) g( e) %55
+    f( dis) e( h) c!( ais)
+    h2.\trill
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { h, a g } fis2\trill
+    g4 r r %60
+    R2.*7 %67
+    \mvTr fis8\fE-\tutti fis'4 e d16( cis)
+    dis4 h r
+    h8 e4 d c!16( h) %70
+    c4 c, r
+    c'8 a'4 g fis16 e
+    fis4. c'!8( h ais)
+    h( gis) a( fis) g( e)
+    f( dis) e( h) c!( ais) %75
+    h2.\trill
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { h, a g } fis2\trill
+    g4 r r
+    r \mvTr h\p-\vv fis'~ %80
+    fis e8 dis e g^\critnote
+    a2.~
+    a4 g8 fis e d
+    c4 c c
+    c d8 c h a %85
+    h g'4 d c16 h
+    a4 d, r
+    c'8 a'4 fis d16 c
+    h4 h, r
+    d'8 g4 d c16 h %90
+    a4 d, r
+    R2.
+    \mvTr d'8\fE-\tutti g4 f \once \slurDashed e16( d)
+    e4 e, r
+    c' a2\trill %95
+    g4 a^\critnote a
+    g \mvTr h,\p-\vv c
+    d c h
+    fis'2 d4
+    g fis e %100
+    d r r
+    R2.
+    r4 r a''~
+    a a gis
+    a r r %105
+    R2.*2
+    r4 r r8 cis\mf
+    d h4 fis \tuplet 3/2 8 { d'16 cis h }
+    cis8 ais4 fis \tuplet 3/2 8 { cis'16 h ais } %110
+    d8 h4 fis \tuplet 3/2 8 { d'16 cis h }
+    cis4-! fis,-! r
+    R2.
+    r4 r r8 fis\mf
+    g e4 h \tuplet 3/2 8 { g'16 fis e } %115
+    fis8 dis4 h \tuplet 3/2 8 { fis'16 e dis }
+    g8 e4 h \tuplet 3/2 8 { g'16 fis e }
+    fis4-! h,-! r
+    R2.*9 %127
+    \mvTr fis'4\fE-\tutti h, g'
+    ais,2 h4
+    r8 g'( fis e d cis) %130
+    d cis4 h cis8
+    ais fis'4 e d16( cis)
+    dis4 h r
+    h8 e4 d c!16( h)
+    c4 c, r %135
+    c'8 a'4 g fis16( e)
+    fis4. c'!8(-\vv h ais)
+    h( gis) a( fis) g( e)
+    f( dis) e( h) c!( ais)
+    h2.\trillE %140
+    r8 h-!-\tuttiE dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { h, a g } fis4.\trill e8
+    e4-\critnote r r\fermata \bar "||" %143 finis
   }
 }

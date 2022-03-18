@@ -8,6 +8,8 @@
 
 vv = \markup \remark "Vv."
 vvE = \markup \remarkE "Vv."
+rip = \markup \remark "Rip."
+ripE = \markup \remarkE "Rip."
 
 
 tempoKyrie = \tempoMarkup "Adagio"
@@ -16,6 +18,7 @@ tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieD = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro"
   tempoEtInTerra = \tempoMarkup "Adagio"
+tempoLaudamus = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

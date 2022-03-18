@@ -144,3 +144,99 @@ GloriaViola = {
     h4. h8 h2\fermata \bar "||" %40 finis
   }
 }
+
+LaudamusViola = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    g'8.(\fE a16) h8( g) e( a)
+    fis4. fis8 g8.( fis16)
+    fis8 a([ g fis e dis)]
+    e4 d c
+    h fis'8( d!) h8.( e16) %45
+    cis4. cis8 d8.( cis16)
+    cis8 e([ d cis h ais)]
+    h h' a!4 g
+    fis8 ais cis4 ais
+    r fis dis %50
+    r h' gis
+    r a a,
+    r a' a,
+    fis h'8( fis) g( fis)
+    R2.*2 %56
+    r8 fis fis fis fis fis
+    fis4~ fis8 dis e h'
+    r c h4 h
+    h r r %60
+    R2.*7 %67
+    r4 cis-!\f ais-!
+    r fis-! dis-!
+    r h'-! gis-! %70
+    r a-! a,-!
+    r a'-! a,-!
+    fis h'8( fis) g( fis)
+    R2.*2 %75
+    r8 fis fis fis fis fis
+    fis4~ fis8 dis e h'
+    r c h4 h
+    h r r
+    h,\p dis h %80
+    e g e
+    d! fis d
+    g h g
+    a c r
+    d d, r %85
+    d' d, d'
+    d d, r
+    d' d, d'
+    d d, r
+    d' d, d' %90
+    d d, r
+    g d d,
+    g\f h' g
+    r g e
+    d4. a'8 fis d %95
+    d4 d d
+    d h\pE c
+    d c h
+    fis'2 d4
+    g fis e %100
+    d r r
+    R2.*3
+    a4 e' cis %105
+    a a' fis
+    d r r
+    fis ais fis
+    h, d? h
+    fis' ais fis %110
+    h, d? h
+    fis'2 r4
+    R2.
+    h,4 dis h
+    e g e %115
+    h dis h
+    e g e
+    h2 r4
+    R2.*5 %123
+    g'8.(\fE a16) h8( g) e( a)
+    fis4. fis8 g4 %125
+    fis8 a([ g fis e dis)]
+    e4 d c
+    h fis'8( d!) h( e)
+    cis4. cis8 d8.( cis16)
+    cis8 e([ d cis h ais)] %130
+    h h' a!4 g
+    fis8 ais cis4 ais
+    r fis dis
+    r h' gis
+    r a a, %135
+    r a' a,
+    fis h'8( fis) g( fis)
+    R2.*2
+    r8 fis fis fis fis fis %140
+    fis4.( dis8) e-! h'-!
+    r c h4 h
+    h r r\fermata \bar "|." %143 finis
+  }
+}

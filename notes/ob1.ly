@@ -112,3 +112,68 @@ GloriaOboeI = {
     fis4. fis8 e2\fermata \bar "||" %40 finis
   }
 }
+
+LaudamusOboeI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    h''4\fE e, c'
+    \appoggiatura e, dis2 e4
+    r8 c'( h a g fis)
+    g fis4 e fis8
+    dis4 r r %45
+    R2.
+    r4 r fis~
+    fis fis e
+    fis fis, r
+    fis'8 h4 a! g16 fis %50
+    g4 g, r
+    e'8 a4 g! fis16 e
+    fis8 fis4 e dis16 cis
+    dis8 fis h, c'!( h ais)
+    h( gis) a( fis) g( e) %55
+    f( dis) e( h) c!( ais)
+    h2.\trill
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { g fis e } dis2\trill
+    e4 r r %60
+    R2.*8 %68
+    fis8\fE h4 a! g16( fis)
+    g4 e, r %70
+    e'8 a4 g fis16( e)
+    fis8 fis4 e dis16( cis)
+    dis8 fis h, c'!( h ais)
+    h( gis) a( fis) g( e)
+    f( dis) e( h) c!( ais) %75
+    h2.\trill
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { g fis e } dis2\trill
+    e4 r r
+    R2.*13 %92
+    d8\fE g4 f e16( d)
+    e8 c'4 h a16( g)
+    fis!8 a c,2\trill %95
+    h8 g' a,4 fis'
+    g r r
+    R2.*26 %123
+    h4\fE e, c'
+    dis,2 e4 %125
+    r8 c'( h a g fis)
+    g fis4 e fis8
+    dis4 r h
+    cis2 d4
+    e r fis %130
+    fis fis e
+    fis fis, r
+    fis'8 h4 a! g16( fis)
+    g4 g, r
+    e'8 a4 g! fis16 e %135
+    fis8 fis4 e dis?16( cis)
+    dis8 fis h, r r4
+    R2.*3 %140
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { g fis e } dis4.\trill e8
+    e4 r r\fermata \bar "||" %143 finis
+  }
+}

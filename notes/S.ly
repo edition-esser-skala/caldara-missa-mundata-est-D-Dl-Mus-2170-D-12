@@ -169,7 +169,7 @@ GloriaSoprano = {
     e[ d c h] c d16 d c8 h16 h %20
     \mvTr c8\fE^\tutti c16 c c8 c c c r4
     d8 d16 d d8 d d d r4
-    d8 d16 d e8 e e e r4
+    d8 d16 d d8^\critnote d e e r4
     e8 e d8. d16 c8 e16 e d8 h
     c c h g16 g a8 a g f16([ e)] %25
     f8[ f'] e4 d\trill c
@@ -216,8 +216,110 @@ GloriaSopranoLyrics = \lyricmode {
   _ tis. %40 finis
 }
 
-% Lau -- da -- mus te, be -- ne -- di -- ci -- mus te,
-% ad -- o -- ra -- mus te, glo -- ri -- fi -- ca -- mus te.
+LaudamusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    R2.*23 %63
+    \mvTr fis'4\pE^\soloE h, g'
+    ais,2 h4 %65
+    r8 g' fis[ e d cis]
+    d cis4 h cis8
+    ais4 r r
+    R2.*11 %79
+    r4 h fis'~ %80
+    fis e8[ dis e] g
+    a4 a a
+    a g8([ fis)] e([ d)]
+    c4 c c
+    c( d8[ c)] h([ a)] %85
+    h2.
+    a4 a h
+    c2.
+    h2 h4
+    h2. %90
+    a4.( h8) c4
+    h8([ a)] a4. h8
+    h4 r r
+    R2.*3 %96,
+    d4 g, e'
+    fis,2 g4
+    r8 e' d[ c h a]
+    h a4 g a8 %100
+    fis4 r r
+    R2.*4 %105
+    r8 d'16 d d8([ c!)] c h
+    h cis16 cis cis8([ h)] h([ ais])
+    ais4 r8 cis ais fis
+    fis'2.~
+    fis~ %110
+    fis~
+    fis2~ fis8[ e]
+    d[ cis] cis4.\trill cis8
+    h4 r r8 fis'
+    g([ fis)] e([ fis)] g[ e] %115
+    fis[ e dis e fis dis]
+    g[ fis e fis g e]
+    dis2 e4~
+    e8[ fis] dis4. e8
+    e h c([ h)] a([ g)] %120
+    a2.
+    h4. a8[ g fis]
+    g[ a] fis4.\trill fis8
+    e4 r r
+    R2.*18 %142
+    R2.\fermata \bar "||" %143 finis
+  }
+}
+
+LaudamusSopranoLyrics = \lyricmode {
+  Lau -- da -- _ %64
+  _ mus, %65
+  lau -- da --
+  _ _ _ mus
+  te.
+
+  Lau -- da -- %80
+  _ mus
+  te, be -- ne --
+  di -- ci -- mus
+  te, ad -- o --
+  ra -- mus %85
+  te,
+  glo -- ri -- fi --
+  ca --
+  _ mus
+  te, %90
+  glo -- ri --
+  fi -- ca -- mus
+  te.
+
+  Lau -- da -- _ %97
+  _ mus,
+  lau -- da --
+  _ _ _ mus %100
+  te,
+
+  be -- ne -- di -- ci -- mus %106
+  te, ad -- o -- ra -- mus
+  te, glo -- ri -- fi --
+  ca --
+
+  _ _ mus %113
+  te, glo --
+  ri -- fi -- ca -- %115
+  _
+  _
+  _ _
+  _ mus
+  te, glo -- ri -- fi -- %120
+  ca --
+  _ _
+  _ _ mus
+  te. %124 finis
+}
+
 % Gra -- ti -- as a -- gi -- mus ti -- bi
 % pro -- pter ma -- gnam glo -- ri -- am tu -- am,
 % Do -- mi -- ne De -- us, Rex coe -- le -- stis,

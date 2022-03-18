@@ -108,7 +108,66 @@ GloriaOboeII = {
     \tempoEtInTerra cis'4. cis8 d4 r \noBreak
     r d c4. c8
     c4 h!8 a h4 h
-    cis8 a cis4. h8 e4~
+    cis8 ais? cis4. h8 e4~
     e dis e2\fermata \bar "||" %40 finis
+  }
+}
+
+LaudamusOboeII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoLaudamus
+      \set Score.currentBarNumber = #41
+    R2.*4 %44
+    fis'4\fE h, g' %45
+    \appoggiatura h, ais2 h4
+    r8 g'( fis e d cis)
+    d cis4 h cis8
+    fis, fis'4 e d16 cis
+    dis4 h r %50
+    h8 e4 d c!16 h
+    c4 c, r
+    c'8 a'4 g fis16 e
+    fis4. c'!8( h ais)
+    h( gis) a ( fis) g( e) %55
+    f( dis) e( h) c!( ais)
+    h2.\trill
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { h, a g } fis2\trill
+    g4 r r %60
+    R2.*7 %67
+    fis8\fE fis'4 e d16( cis)
+    dis4 h r
+    h8 e4 d c!16( h) %70
+    c4 c, r
+    c'8 a'4 g fis16 e
+    fis4. c'!8( h ais)
+    h( gis) a( fis) g( e)
+    f( dis) e( h) c!( ais) %75
+    h2.\trill
+    r8 h-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { h, a g } fis2\trill
+    g4 r r
+    R2.*13 %92
+    d'8\fE g4 f \once \slurDashed e16( d)
+    e4 e, r
+    c' a2\trill %95
+    g4 a^\critnote a
+    g r r
+    R2.*30 %127
+    fis'4\fE h, g'
+    ais,2 h4
+    r8 g'( fis e d cis) %130
+    d cis4 h cis8
+    ais fis'4 e d16( cis)
+    dis4 h r
+    h8 e4 d c!16( h)
+    c4 c, r %135
+    c'8 a'4 g fis16( e)
+    fis4. r8 r4
+    R2.*3 %140
+    r8 h,-! dis-! fis-! h-! fis-!
+    \tuplet 3/2 4 { h, a g } fis4.\trill e8
+    e4-\critnote r r\fermata \bar "||" %143 finis
   }
 }
