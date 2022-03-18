@@ -149,3 +149,61 @@ KyrieTenoreLyrics = \lyricmode {
   son, e -- lei --
   son. %87 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoGloria
+    R1*6 %6
+    r2 \mvTr e8\fE^\tuttiE e16 e e8 e
+    e e e e c c16 c c8 e
+    f f e e e e16 e r8 c16 c
+    d8 d d d d8. d16 d4 %10
+    d8 d16 d d8 d c e e e
+    e4 e e8([ f] e8.) d16
+    c8 c16 c c8 d e d d d
+    e e16 e r4 r2
+    R1*6 %20
+    \mvTr g,8\fE^\tuttiE g16 g g8 g a a r4
+    a8 a16 a a8 a h h r4
+    h8 h16 h h8 h c c r4
+    c8 c c8. h16 g8 c16 c d8 d
+    a a h h16 h f'8 f g g %25
+    f[ g e f] d[ e c f]
+    h,[ c16 d] e8 e e([ f] e8.) e16
+    e8([ f)] e8. e16 e4 r
+    R1*6 \noBreak %34
+    R1\fermata \bar "||" %35
+    \tempoEtInTerra cis8 cis cis cis d4 r \noBreak
+    r d8 d c8. c16 c4
+    c8 c h! a h4 h
+    cis8 cis cis cis h2~
+    h h\fermata \bar "||" %40 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- %7
+  cel -- sis De -- o, glo -- ri -- a in ex --
+  cel -- sis De -- o, glo -- ri -- a in ex --
+  cel -- sis De -- o, glo -- ri -- a, %10
+  glo -- ri -- a in ex -- cel -- sis, in ex --
+  cel -- sis De -- o,
+  glo -- ri -- a in ex -- cel -- sis De -- o,
+  glo -- ri -- a,
+
+  glo -- ri -- a in ex -- cel -- sis, %21
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- cel -- sis
+  De -- o glo -- ri -- a in ex -- cel -- sis,
+  De -- o glo -- ri -- a in ex -- cel -- sis, %25
+  De -- _
+  _ _ o glo -- ri --
+  a, __ glo -- ri -- a.
+
+  Et in ter -- ra pax, %36
+  pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun -- ta -- tis,
+  bo -- nae vo -- lun -- ta --
+  tis. %40 finis
+}

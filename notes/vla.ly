@@ -2,7 +2,7 @@
 
 KyrieViola = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key a \minor \time 4/4 \tempoKyrie
     e4.\fE e8 e2
     r r4 e~
@@ -95,5 +95,52 @@ KyrieViola = {
       f8 f f f f f f f \noBreak %85
     h,! h c d e e e e
     e1\fermata \bar "|."
+  }
+}
+
+GloriaViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoGloria
+    c'8\fE c, r c' h a h gis
+    e16 e' e e e d c h a8 d r h
+    a4 r8 c, a4 r8 f'
+    d4 r8 h' g4 r8 e
+    c4 r8 a' f4 r8 d %5
+    h4 r8 gis' e4 r8 e
+    e d r gis a e r c'
+    h a h gis a c r c,
+    d h e e, a e' r c'
+    a4 r8 f d d' d,4 %10
+    r8 d' e,4 a8 gis c h
+    e^\critnote d c h a d, e e,
+    a' g! f f g a g g
+    g4 r r2
+    R1 %15
+    r4 r8 e\pE f f, f' f,
+    h h' r h, e e, e' e,
+    a a' r a, d d, d' d,
+    g g' r g, c h e d
+    g f e d c f g g, %20
+    c\fE c e e f4 r
+    d8 d fis fis g4 r8 g
+    d d h' h c4 r8 e,
+    g f g g, e' g g h
+    a a, g' e f f, e' c %25
+    d h' c a h gis a d,
+    e4 r r2
+    r c'8 c, r c'
+    h a h gis e16 e' e e e d c h
+    a8 h r e, e4 r8 c' %30
+    a4 r8 f d4 r8 h'
+    g4 r8 e c4 r8 a'
+    f4 r8 d h4 r8 gis'
+    e e e e e d h16^\critnote e e e \noBreak
+    e4 r r2\fermata \bar "||" %35
+    \tempoEtInTerra e4. e8 f4 d8 d \noBreak
+    b'8. b16 f4 f4. f8
+    a4 c r8 e,! e e
+    e4 ais h h
+    h4. h8 h2\fermata \bar "||" %40 finis
   }
 }

@@ -77,3 +77,38 @@ KyrieOboeII = {
     a1\fermata \bar "|." %87 finis
   }
 }
+
+GloriaOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoGloria
+    a''16\fE a, a a a h c d e e e e e d c h
+    c8 a r e' f16 e d c h8 e16 d
+    c8 a r a' f16 a8 f d a16
+    h8 g r g' e16 g8 e c g16
+    a8 f r f' d16 f8 d h a16 %5
+    gis8 e r h' a16 c8 h16 a c8 h16
+    a8 f e e'16 d c8 a r a
+    e16 e'8 e,16 e e'8 e,16 c'8 c, e'4
+    f h,8 e c a r a'
+    a16 f8 d a c16 h8 h' r d %10
+    d16 h8 gis f! d16 c8 c, r e'
+    c'16 h8 e,16^\critnote a gis8 e16 e8 f e e
+    c g' a h c c, c h
+    c c, r4 r2
+    R1*13 %27
+    r2 a''16\fE a,16 a a a h c d
+    e e e e e d c h c8 a r e'
+    f16 e d c h8 e16 d c8 a r a' %30
+    f16 a8 f d a16 h8 g r g'
+    e16 g8 e c g16 a8 f r f'
+    d16 f8 d h a16 gis8 e r h'
+    a16 c8 h16 a c8 h16 a8 f e e'16 d \noBreak
+    c8 c, r4 r2\fermata \bar "||" %35
+    \tempoEtInTerra cis'4. cis8 d4 r \noBreak
+    r d c4. c8
+    c4 h!8 a h4 h
+    cis8 a cis4. h8 e4~
+    e dis e2\fermata \bar "||" %40 finis
+  }
+}

@@ -89,11 +89,58 @@ KyrieViolinoI = {
     r2 r4 h' e h e, c'
     d e, r2 r1
     r2 r4 gis' a e a, a' \noBreak
-    h, a' g, gis' a1 \bar "|"
+    h, a' e, gis' a1 \bar "|"
     \time 4/4 \tempoKyrieD
       \unset Staff.timeSignatureFraction
       a8 a a a b b b a \noBreak %85
     gis e a a a a gis gis
     a1\fermata \bar "|." %87 finis
+  }
+}
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoGloria
+    \mvTr a''16\fE-\tuttiE a, a a a h c d e e e e e d c h
+    c8 a a'2 gis4
+    a16 e8 c a a'16 f8 d r d'
+    h16 d8 h g f16 e8 c r c'
+    a16 c8 a f e16^\critnote d8 h r h' %5
+    gis16 h8 gis e d16 c e8 d16 c e8 d16
+    c h c a h4\trill a16 a'8 a,16 a a'8 a,16
+    e'8 e, r e' c a a'4~
+    a gis a16 e8 c a a'16
+    f8 d, r d'' d16 h8 gis f! d16 %10
+    h8 h, r e' c'16 h8 e,16 a gis8 e16
+    e8 e, r e' a16 e f d c a' h, gis'
+    a8 c, c d e f d8. d16
+    e8 c, r4 r2
+    r4 r8 \mvTr c''\p-\vvE c4 h %15
+    c16 g8 e c c'16 a8 f r f
+    d16 f8 d h a16 g8 e r e'
+    c16 e8 c a g16 f8 d r d''
+    h16 d8 h g f16 e8 c r g'
+    e16 e8 d16 c c'8 h16 c16. g32 a16. f32 e16 c' d, h' %20
+    c8\f c, r c' c16 a8 f c a16
+    fis8 d r d'' d16 h8 g d h16
+    g8 g, r c'' c16 g8 e c g16
+    c16. g'32 c16. a32 d,16.^\critnote c'32 d,16. h'32 c8 c, r g'
+    c c, r e a a, r g' %25
+    f16 d'8 f,16 e c'8 e,16 d h'8 d,16 c a'8 h16
+    gis4 r r2
+    r \mvTr a16\fE-\tutti a, a a a h c d
+    e e e e e d c h c8 a a'4~
+    a gis a16 e8 c a a'16 %30
+    f8 d r d' h16 d8 h g f16
+    e8 c r c' a16 c8 a f e16
+    d8 h r h' gis16 h8 gis e d16
+    c e8 d16 c e8 d16 c e a c, h16. a'32 h,16. gis'32 \noBreak
+    a,8 a, r4 r2\fermata \bar "||" %35
+    \tempoEtInTerra a''4. a8 a4 r \noBreak
+    r b b a
+    a2. gis4
+    g4. g8 fis4 g8 fis16 e
+    fis4. fis8 e2\fermata \bar "||" %40 finis
   }
 }

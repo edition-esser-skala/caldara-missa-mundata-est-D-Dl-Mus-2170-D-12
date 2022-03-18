@@ -6,10 +6,16 @@
 \include "ees.ly"
 
 
+vv = \markup \remark "Vv."
+vvE = \markup \remarkE "Vv."
+
+
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Adagio"
   tempoKyrieC = \tempoMarkup "[Allegro]"
   tempoKyrieD = \tempoMarkup "Adagio"
+tempoGloria = \tempoMarkup "Allegro"
+  tempoEtInTerra = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

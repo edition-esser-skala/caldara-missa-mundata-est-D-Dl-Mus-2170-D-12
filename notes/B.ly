@@ -145,3 +145,71 @@ KyrieBassoLyrics = \lyricmode {
   _
   son. %87 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoGloria
+    R1*6 %6
+    r2 \mvTr a'8\fE^\tuttiE h16 h c8 a
+    gis fis gis e a a,16 a r8 c16 c
+    d8 h e e, a h16 h c8 a
+    d d d d' gis,8. gis16 gis4 %10
+    gis8 gis16 gis gis8 gis a gis c h
+    e[ d c h] a[ d,] e4
+    a,8 e'16 e f8 d c f g g,
+    c c16 c r8 \mvTr c'16\pE^\solo c h8 c d h
+    c16[ d e d] c8[ e,] f[ d'] g,8. g16 %15
+    c,8 c[ e g] f4 r8 f
+    h,[ h' d h] e2
+    a, d
+    g, c8[ h] e[ d16 c]
+    h4 c8[ d] g,[ f] g g16 g %20
+    \mvTr c8\fE^\tuttiE c,16 c b'8 b a a, r4
+    d'8 d,16 d c'8 c, h' h, r4
+    g'8 g,16 g f'!8 f e e r4
+    e8^\critnote f g8. g,16 c8 c'16 c h8 g
+    a a, g' e16 e f8 f, e' c %25
+    d[ h' c a] h[ gis a d,]
+    e[ d c h] a d e8. e16
+    a,8([ d)] e8. e16 a,4 r
+    R1*6 \noBreak %34
+    R1\fermata \bar "||" %35
+    \tempoEtInTerra g'!8 g g g f4 r \noBreak
+    r d8 d f8. f16 f4
+    fis8 fis fis fis e!4 e
+    ais,8 ais ais ais h2~
+    h e\fermata \bar "||" %40 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- %7
+  cel -- sis De -- o, glo -- ri -- a in ex --
+  cel -- sis De -- o, glo -- ri -- a in ex --
+  cel -- sis De -- o, glo -- ri -- a, %10
+  glo -- ri -- a in ex -- cel -- sis De -- o,
+  glo -- _ _
+  _ ri -- a, in ex -- cel -- sis De -- o
+  glo -- ri -- a, in ex -- cel -- sis De -- o
+  glo -- _ _ _ ri -- %15
+  a, glo -- _ _
+  _ _
+  _ _
+  _ _ _
+  _ _ _ _ ri -- a, %20
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- cel -- sis
+  De -- o glo -- ri -- a in ex -- cel -- sis,
+  De -- o glo -- ri -- a in ex -- cel -- sis, %25
+  De -- _
+  _ _ o glo -- ri --
+  a, __ glo -- ri -- a.
+
+  Et in ter -- ra pax, %36
+  pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun -- ta -- tis,
+  bo -- nae vo -- lun -- ta --
+  tis. %40 finis
+}

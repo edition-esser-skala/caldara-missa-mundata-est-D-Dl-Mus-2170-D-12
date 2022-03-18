@@ -165,3 +165,71 @@ KyrieAltoLyrics = \lyricmode {
   son, e -- lei --
   son. %87 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoGloria
+    R1*6 %6
+    r2 \mvTr a'8\fE^\tuttiE a16 a a8 a
+    h a h gis a a16 a a8 a
+    a a gis gis a a16 a r8 a16 a
+    a8 a a a h8. h16 h4 %10
+    h8 h16 h h8 h c h a gis?
+    c h a gis a4. gis8
+    a g16 g a8 f g a g g
+    g g16 g \mvTr c,([\pE^\solo d)] e([ f)] g8 g g g16([ f)]
+    e8 c16 c c'8 c c4 h %15
+    c g a8. a16 a4
+    a a g g
+    g g f8. f16 f4
+    f f e8 d g4~
+    g4. f8 e a16 a d,8 d %20
+    \mvTr e\fE^\tuttiE e16 e e8 e f f r4
+    fis8 fis16 fis fis8 fis g g r4
+    g8 g16 g g8 g g g r4
+    g8 a g8. f16 e8 g16 g g8 g
+    e e e e16 e c8 c c e %25
+    d4 c h8[ h'] a4
+    gis a8[ h] c a a8. gis16
+    a8([ h)] a8. gis16 a4 r
+    R1*6 \noBreak %34
+    R1\fermata \bar "||" %35
+    \tempoEtInTerra a8 a a a a4 d,8 d \noBreak
+    b'8. b16 b8 b b8. b16 a4
+    a8 a a a a4 gis
+    g8 g g g fis4 g
+    fis2 gis\fermata \bar "||" %40 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- %7
+  cel -- sis De -- o, glo -- ri -- a in ex --
+  cel -- sis De -- o, glo -- ri -- a in ex --
+  cel -- sis De -- o, glo -- ri -- a, %10
+  glo -- ri -- a in ex -- cel -- sis De -- o,
+  in ex -- cel -- sis De -- o,
+  glo -- ri -- a in ex -- cel -- sis De -- o,
+  glo -- ri -- a, in ex -- cel -- sis De -- o
+  glo -- ri -- a, in ex -- cel -- sis %15
+  De -- o glo -- ri -- a,
+  in ex -- cel -- sis
+  De -- o glo -- ri -- a,
+  in ex -- cel -- sis glo --
+  ri -- a, in ex -- cel -- sis, %20
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- cel -- sis,
+  glo -- ri -- a in ex -- cel -- sis
+  De -- o glo -- ri -- a in ex -- cel -- sis,
+  De -- o glo -- ri -- a in ex -- cel -- sis, %25
+  De -- _ _ _
+  _ _ _ o glo -- ri --
+  a, __ glo -- ri -- a.
+
+  Et in ter -- ra pax, pax ho -- %36
+  mi -- ni -- bus, ho -- mi -- ni -- bus
+  bo -- nae vo -- lun -- ta -- tis,
+  bo -- nae vo -- lun -- ta -- _
+  _ tis. %40 finis
+}
