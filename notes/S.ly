@@ -359,12 +359,101 @@ GratiasSopranoLyrics = \lyricmode {
   am. %156 finis
 }
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+
+
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 2/1 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    \mvTr d'1\fE^\tuttiE h2 e~
+    e4 d c h c2 d
+    d4( c) h2 a1
+    g2 r r1
+    R\breve
+    d'1 h2 e~ %200
+    e4 d c h c2 c
+    d4 c h a h1
+    c4 h a g a1
+    h4 a g fis g1
+    a4 g fis e fis2 g %205
+    c1 h2 h
+    a d1 c2
+    h e1 d2
+    c1 h
+    cis2( d1 cis2) %210
+    d1 r
+    R\breve
+    r1 d
+    h2( e2. d4) cis h
+    cis2( d2.) d4 cis2 %215
+    d d( c) c4 c
+    h2 h a d
+    d c h4 h e e
+    dis2 e e( dis)
+    e1 r %220
+    d! h2 e~
+    e4 d c h c2 d
+    d4 c h2 a1
+    g2 r r1
+    R\breve %225
+    d'1 h2 e~
+    e4 d c h c2 c
+    d4( c) h( a) h1
+    c4 h a g a1
+    h4 a g fis g1 %230
+    a4 g fis e fis2 g4 g
+    \time 1/1 c1
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      h4 r e8 e e e
+    d([ c] h!4 a2)
+    h1\fermata \bar "||" %235 finis
+  }
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- _ %195
+  _ _ _ lis pec --
+  ca -- ta mun --
+  di,
+
+  qui tol -- _ %200
+  _ _ _ lis pec --
+  ca -- _ _ _ _
+  _ _ _ _ _
+  _ _ _ _ _
+  _ _ _ _ _ ta %205
+  mun -- di: Mi --
+  se -- re -- _
+  _ _ _
+  _ re
+  no -- %210
+  bis.
+
+  Qui
+  tol -- lis pec --
+  ca -- ta mun -- %215
+  di: Su -- sci -- pe
+  de -- pre -- ca -- ti --
+  o -- nem, de -- pre -- ca -- ti --
+  o -- nem no --
+  stram. %220
+  Qui se -- _
+  _ _ _ des ad
+  dex -- te -- ram Pa --
+  tris,
+  %225
+  qui se -- _
+  _ _ _ des ad
+  dex -- te -- ram,
+  dex -- _ _ _ _
+  _ _ _ _ _ %230
+  _ _ _ _ _ te -- ram
+  Pa --
+  tris: Mi -- se -- re -- re
+  no --
+  bis. %235 finis
+}

@@ -295,3 +295,54 @@ GratiasViolinoI = {
     e r r\fermata \bar "||" %194 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 2/1 \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    d'1\fE h2 e~
+    e4 d c h c2 d
+    d4 c h2 a1
+    g2 r r1
+    R\breve
+    d'1 h2 e~ %200
+    e4 d c h c2.\trillE h8 c
+    d4 c h4. a8 h2.\trill a8 h
+    c4 h a4. g8 a2.\trill g8 a
+    h4 a g4. fis8 g2.\trill fis8 g
+    a4 g fis e fis2 g %205
+    c1 h2 h
+    a8 d, fis a d4-! d,-! r d' c4.\trill h16 c
+    h8 e, g h e4-! e,-! r e' d4.\trill c16 d
+    c8 c, e g c[ e, g c] h4-! d-! r h
+    cis e d2. cis8 h cis4.\trill d8 %210
+    d1 r
+    R\breve
+    r1 d
+    h2 e2. d4 cis h
+    cis2 d2. d4 cis2 %215
+    d d c c4 c
+    h2 h a d
+    d c h4 h e e
+    dis2 e e dis
+    e1 r %220
+    d! h2 e~
+    e4 d c h c2 d
+    d4 c h2 a1
+    g2 r r1
+    R\breve %225
+    d'1 h2 e~
+    e4 d c h c2.\trill h8 c
+    d4 c h a h2.\trill a8 h
+    c4 h a4. g8 a2.\trill g8 a
+    h4 a g4. fis8 g2.\trill fis8 g %230
+    a4 g fis e fis2 g4 g
+    \time 1/1 c1
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      h4 r e8 e e e
+    d c h!4 a2
+    h1\fermata \bar "||" %235 finis
+  }
+}

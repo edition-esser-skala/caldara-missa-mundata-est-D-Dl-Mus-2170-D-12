@@ -16,11 +16,14 @@ tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Adagio"
   tempoKyrieC = \tempoMarkup "[Allegro]"
   tempoKyrieD = \tempoMarkup "Adagio"
+
 tempoGloria = \tempoMarkup "Allegro"
   tempoEtInTerra = \tempoMarkup "Adagio"
 tempoLaudamus = \tempoMarkup "Andante"
 tempoGratias = \tempoMarkup "Andante"
   tempoDomine = \tempoMarkup "Vivace"
+tempoQuiTollis = \tempoMarkup "[Allegro]"
+  tempoQuiTollisB = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

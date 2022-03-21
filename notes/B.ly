@@ -294,3 +294,91 @@ GratiasBassoLyrics = \lyricmode {
   _ _ _
   tris. %193 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 2/1 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*3
+    \mvTr g'1\fE^\tuttiE e2 a~
+    a4 g fis e fis2 g~
+    g fis g r %200
+    r a1~ a4 g
+    fis1 g
+    e fis
+    d e
+    c d2 h %205
+    a( d) g, g'
+    d1 a'
+    e h'
+    e,2. fis4 g d g2
+    a d, a1 %210
+    d2 r r1
+    R\breve
+    a'1 fis2 h~
+    h4^\critnote h a g fis2 a
+    a4( g) fis2 e1 %215
+    d2 d e4 d e fis
+    g2 g4 g d'2 d,
+    a' a e4 e e e
+    h'2 e, h1
+    c2 c d! g~ %220
+    g fis g r
+    R\breve*2
+    g1 e2 a~
+    a4 g fis e fis2 g4 g %225
+    g2( fis) g r
+    r a1 a4( g)
+    fis2 fis g1
+    e fis
+    d e %230
+    c d2 h4 h
+    \time 1/1 a2( d)
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      g,4 r cis8 cis cis cis
+    d1
+    g,\fermata \bar "||" %235 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- _ %198
+  _ lis pec -- ca -- ta __
+  mun -- di: %200
+  Mi -- se --
+  re -- _
+  _ _
+  _ _
+  _ _ re %205
+  no -- bis, mi --
+  se -- re --
+  _ _
+  _ _ _ _ _
+  _ re no -- %210
+  bis.
+
+  Qui tol -- _
+  _ _ _ lis pec --
+  ca -- ta mun -- %215
+  di: Su -- _ _ _ _
+  _ sci -- pe de -- pre --
+  ca -- ti -- o -- nem, de -- pre --
+  ca -- ti -- o --
+  nem no -- _ _ %220
+  _ stram.
+
+  Qui se -- _ %224
+  _ des ad dex -- te -- ram %225
+  Pa -- tris,
+  qui se --
+  des ad dex --
+  _ _
+  _ _ %230
+  _ _ te -- ram
+  Pa --
+  tris: Mi -- se -- re -- re
+  no --
+  bis. %235 finis
+}

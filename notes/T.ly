@@ -311,3 +311,93 @@ GratiasTenoreLyrics = \lyricmode {
   _
   tris. %193 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 2/1 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*2
+    r1 \mvTr d\fE^\tuttiE
+    h2 e2. d4 c h
+    c2 d d4( c) h2
+    a1 h2 r %200
+    r1 e
+    d\breve
+    c
+    h
+    \once \tieDashed a1~ a2 g %205
+    g( fis) g d'~
+    d d e1~
+    e fis
+    g2 e d1
+    \once \tieDashed a~ a %210
+    a2 d h( e)
+    e4( d) cis( h) cis2 d~
+    d cis d1
+    R\breve*2 %215
+    r2 a( g2.) d'4
+    d2 d4 d d2 d
+    e e e4 e e e
+    h2 h h1~
+    h2 a4 g fis2 h %220
+    a1 h
+    R\breve
+    r1 d
+    h2 e2. d4 c h
+    c2 d d4 c h2 %225
+    a1 h2 r
+    r1 e
+    \tieDashed d~ d
+    c~ c
+    h~ h \tieSolid %230
+    a a2 g
+    \time 1/1 g( fis)
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      g4 b4. b8 b b
+    a4( h8[ c] d4. c8)
+    h1\fermata \bar "||" %235 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui %197
+  tol -- _ _ _ _
+  lis pec -- ca -- ta
+  mun -- di: %200
+  Mi --
+  se --
+  re --
+  _
+  _ re %205
+  no -- bis, mi --
+  se -- re --
+  _
+  _ re no --
+  _ %210
+  bis. Qui tol --
+  lis __ pec -- ca -- ta __
+  mun -- di:
+
+  Su -- sci -- %216
+  pe de -- pre -- ca -- ti --
+  o -- nem, de -- pre -- ca -- ti --
+  o -- nem no --
+  _ _ _ _ %220
+  _ stram.
+
+  Qui
+  se -- _ _ _ _
+  des ad dex -- te -- ram %225
+  Pa -- tris,
+  ad
+  dex --
+  _
+  _ %230
+  _ te -- ram
+  Pa --
+  tris: Mi -- se -- re -- re
+  no --
+  bis. %235 finis
+}

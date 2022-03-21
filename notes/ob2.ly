@@ -196,3 +196,54 @@ GratiasOboeII = {
     e r r\fermata \bar "||" %194 finis
   }
 }
+
+QuiTollisOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 2/1 \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    d'1\fE h2 e~
+    e4 d c h c2 d
+    d4 c h2 a1
+    g2 r r1
+    R\breve
+    d'1 h2 e~ %200
+    e4 d c h c2 c
+    d4 c h a h1
+    c4 h a g a1
+    h4 a g fis g1
+    a4 g fis e fis2 g %205
+    c1 h2 h
+    a d1 c2
+    h e1 d2
+    c1 h
+    cis2 d1 cis2 %210
+    d1 r
+    R\breve
+    r1 d
+    h2 e2. d4 cis h
+    cis2 d2. d4 cis2 %215
+    d d c c4 c
+    h2 h a d
+    d c h4 h e e
+    dis2 e e dis
+    e1 r %220
+    d! h2 e~
+    e4 d c h c2 d
+    d4 c h2 a1
+    g2 r r1
+    R\breve %225
+    d'1 h2 e~
+    e4 d c h c2 c
+    d4 c h a h1
+    c4 h a g a1
+    h4 a g fis g1 %230
+    a4 g fis e fis2 g4 g
+    \time 1/1 c1
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      h4 r e8 e e e
+    d c h!4 a2
+    h1\fermata \bar "||" %235 finis
+  }
+}

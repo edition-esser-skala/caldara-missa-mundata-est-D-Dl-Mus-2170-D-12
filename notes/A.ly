@@ -384,3 +384,98 @@ GratiasAltoLyrics = \lyricmode {
   tu -- %155
   am. %156 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 2/1 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    r1 \mvTr g'\fE^\tuttiE
+    e2 a2. g4 fis e
+    fis2 g g fis
+    g4 e g2. fis4 e2~
+    e4 e a1 d,2
+    r1 g %200
+    e2 a2. g4 fis e
+    fis2 a g4 fis e d
+    e1 fis4 e d c
+    d1 e4 d c h
+    c1 d2 d %205
+    e(^\critnote d) d g~
+    g fis e \once \tieDashed a~
+    a g fis \once \tieDashed h~
+    h a1 g2~
+    g fis e a %210
+    fis h2. a4 g fis
+    g2 a a4( g) fis2
+    e1 fis2 fis
+    g1 a~
+    a2 a g1 %215
+    fis2 fis( g4 fis) g( a)
+    d,2 g4 g g2 fis
+    e a a4 a g g
+    fis2 g fis1
+    e d! %220
+    d2 r g1
+    e2 a2. g4 fis e
+    fis2 g g fis4 fis
+    g1 g2 e
+    e e4 e a2 d, %225
+    r1 g
+    e2 a2. g4 fis e
+    fis2 a g4( fis) e( d)
+    e1 fis4 e d c
+    d1 e4 d c h %230
+    c1 d
+    \time 1/1 e2^\critnote d
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      d4 g4. g8 g g
+    fis4( g2 fis4)
+    g1\fermata \bar "||" %235 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui %195
+  tol -- _ _ _ _
+  lis pec -- ca -- _
+  _ _ _ _ _
+  ta mun -- di,
+  qui %200
+  tol -- _ _ _ _
+  lis pec -- ca -- _ _ _
+  _ _ _ _ _
+  _ _ _ _ _
+  _ _ ta %205
+  mun -- di: Mi --
+  se -- re -- _
+  _ _ _
+  _ re __
+  no -- bis. Qui %210
+  tol -- _ _ _ _
+  lis pec -- ca -- ta
+  mun -- di, pec --
+  ca -- _
+  ta mun -- %215
+  di: Su -- sci --
+  pe de -- pre -- ca -- ti --
+  o -- nem, de -- pre -- ca -- ti --
+  o -- nem no --
+  _ _ %220
+  stram. Qui
+  se -- _ _ _ _
+  des ad dex -- te -- ram
+  Pa -- tris, ad
+  dex -- te -- ram Pa -- tris, %225
+  qui
+  se -- _ _ _ _
+  des ad dex -- te --
+  ram Pa -- _ _ _
+  _ _ _ _ _ %230
+  _ _
+  _ _
+  tris: Mi -- se -- re -- re
+  no --
+  bis. %235 finis
+}

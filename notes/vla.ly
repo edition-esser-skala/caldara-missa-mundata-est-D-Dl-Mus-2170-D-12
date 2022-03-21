@@ -288,3 +288,52 @@ GratiasViola = {
     e,4 r r\fermata \bar "||" %194 finis
   }
 }
+
+QuiTollisViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 2/1 \tempoQuiTollis
+      \set Score.currentBarNumber = #195
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*2
+    r1 d\fE
+    h2 e2. d4 c h
+    c2 d d4 c h2
+    a1 h2 r %200
+    r1 e
+    d\breve
+    c
+    h
+    \once \tieDashed a1~ a2 g %205
+    g fis g d'~
+    d d e1~
+    e fis
+    g2 e d1
+    \once \tieDashed a~ a %210
+    a2 d h e
+    e4 d cis h cis2 d~
+    d cis d1
+    R\breve*2 %215
+    r2 a g2. d'4
+    d2 d4 d d2 d
+    e e e4 e e e
+    h2 h h1~
+    h2 a4 g fis2 h %220
+    a1 h
+    R\breve
+    r1 d
+    h2 e2. d4 c h
+    c2 d d4 c h2 %225
+    a1 h2 r
+    r1 e
+    \tieDashed d~ d
+    c~ c
+    h~ h \tieSolid %230
+    a a2 g
+    \time 1/1 g fis
+    \time 4/4 \unset Staff.timeSignatureFraction \tempoQuiTollisB
+      g4 b4. b8 b b
+    a4 h8 c d4. c8
+    h1\fermata \bar "||" %235 finis
+  }
+}
