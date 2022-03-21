@@ -240,3 +240,51 @@ LaudamusViola = {
     h r r\fermata \bar "|." %143 finis
   }
 }
+
+GratiasViola = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/4 \tempoGratias
+      \set Score.currentBarNumber = #144#
+    R2.*12 %155
+    \tempoDomine a'8\pE gis a h c d
+    e e, e fis gis e
+    a a, a h c d
+    e d e fis gis e
+    a gis a h c a %160
+    d c d c h a
+    gis fis gis e fis gis
+    a c, d h e e,
+    a c'-!\f h-! a-! gis fis
+    e f? e d c h %165
+    a c d d h8. h16
+    a8 gis\p a h c d
+    e d e fis gis e
+    a gis a h c a
+    d, c d e f d %170
+    g f g a h g
+    c, h c d e d
+    c e f d g g,
+    c4 r r
+    r8 e'\fE d c h a %175
+    g4 a8 f? d g
+    c4 c, r8. c16\p
+    g'4 g, r8. e'16
+    a4 a, r8. fis'!16
+    h4 h, r8. e'16 %180
+    e,8 g a fis h h,
+    e g\f-! fis-! e-! dis cis
+    h c'! h a g fis
+    e h' c a fis h
+    e, dis\p e fis g e %185
+    h' h, h cis? dis h
+    e dis e fis g e
+    a e a g fis e
+    fis d g fis e d
+    e c fis e dis? cis? %190
+    dis cis? dis h cis? dis
+    e e' a, fis h h,
+    e^\critnote h' c\f a fis h
+    e,4 r r\fermata \bar "||" %194 finis
+  }
+}

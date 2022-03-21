@@ -19,6 +19,8 @@ tempoKyrie = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro"
   tempoEtInTerra = \tempoMarkup "Adagio"
 tempoLaudamus = \tempoMarkup "Andante"
+tempoGratias = \tempoMarkup "Andante"
+  tempoDomine = \tempoMarkup "Vivace"
 
 
 \include "notes/ob1.ly"

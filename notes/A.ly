@@ -345,3 +345,42 @@ LaudamusAltoLyrics = \lyricmode {
   mus
   te. %124 finis
 }
+
+GratiasAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #144
+    \mvTr g'4.\pE^\soloE g8 g4
+    fis4. fis8 fis4 %145
+    h, h r
+    r g' g
+    fis2 g4
+    e2 fis4
+    fis4. fis8 g4~ %150
+    g g( fis)
+    g r r
+    r h h
+    e,4. e8 a4~
+    a a( gis) %155
+    \tempoDomine a r r
+    R2.*37 %193
+    R2.\fermata \bar "||" %194 finis
+  }
+}
+
+GratiasAltoLyrics = \lyricmode {
+  Gra -- ti -- as %144
+  a -- gi -- mus %145
+  ti -- bi
+  pro -- pter
+  ma -- gnam,
+  ma -- gnam
+  glo -- ri -- am __ %150
+  tu --
+  am,
+  pro -- pter
+  glo -- ri -- am __
+  tu -- %155
+  am. %156 finis
+}

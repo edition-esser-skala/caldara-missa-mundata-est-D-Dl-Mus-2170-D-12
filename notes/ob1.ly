@@ -177,3 +177,28 @@ LaudamusOboeI = {
     e4 r r\fermata \bar "||" %143 finis
   }
 }
+
+GratiasOboeI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoGratias
+      \set Score.currentBarNumber = #144
+    R2.*12 %155
+    \tempoDomine R2.*9 %164
+    r8 a''-!\f gis-! fis-! e-! d-! %165
+    c c, a'4 gis
+    a a r
+    R2.*6
+    r8 c'-!\f h-! a-! g-! f-!
+    e a g f e d %175
+    e16 f g8 c,4 h8.\trill c16
+    c4 r r
+    R2.*5 %182
+    r8 e\f dis cis h a
+    g4 e' dis
+    e e, r %185
+    R2.*7
+    r4 e'\f dis
+    e r r\fermata \bar "||" %194 finis
+  }
+}

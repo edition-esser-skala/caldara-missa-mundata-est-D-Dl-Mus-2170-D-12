@@ -247,3 +247,51 @@ LaudamusViolinoI = {
     e4 r r\fermata \bar "||" %143 finis
   }
 }
+
+GratiasViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoGratias
+      \set Score.currentBarNumber = #144
+    R2.*12 %155
+    \tempoDomine \mvTr a'4\p-\vvE a, r8. a'16
+    e'4 e, r8. e'16
+    a4 a, r8. a'16
+    e4 e, r8. e16
+    a4 a, r8. a'16 %160
+    f'4 f, r8. f'16
+    e4 e, r8. e16
+    a8 c, d h e e
+    a,4 r r
+    r8 \mvTr a''-!\f-\tutti gis-! fis-! e-! d-! %165
+    c c, a'4 gis
+    a a, r8. \mvTr a'16\p-\vv
+    e'4 e, r8. e'16
+    a,4 a, r8. a'16
+    f'4 f, r8. f'16 %170
+    h,4 h, r8. h'16
+    e4 e, r8. e'16
+    c,8 e f d g g
+    \kneeBeam c, \mvTr c''-!\f-\tutti h-! a-! g-! f-!
+    e a g f e d %175
+    e16 f g8 c,4 h8.\trill c16
+    \mvTr c,8\p-\vv h c d e f
+    g fis g a h gis
+    a gis a h c a
+    h c h a g fis %180
+    e g a fis h h,
+    e4 r r
+    r8 \mvTr e'\f-\tutti dis cis h a
+    g4 e' dis
+    e e, r8. \mvTr e'16\pE-\vv %185
+    dis4 h, r8. dis'16
+    e4 e, r8. e'16
+    c4 c, r8. c'16
+    d,4 d' r8. d16
+    c,4 c' r8. c16 %190
+    h,4 h' r8. h16
+    e,8 g a fis h h,
+    e4 \mvTr e'\f-\tutti dis
+    e r r\fermata \bar "||" %194 finis
+  }
+}

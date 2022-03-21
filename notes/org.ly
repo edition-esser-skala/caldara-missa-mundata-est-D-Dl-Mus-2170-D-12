@@ -501,3 +501,116 @@ LaudamusBassFigures = \figuremode {
   <7> <_+>2
   r2. %143 finis
 }
+
+GratiasOrgano = {
+  \relative c {
+    \clef "treble_8"
+    \key e \minor \time 3/4 \tempoGratias
+      \set Score.currentBarNumber = #144
+    \mvTr e'4.\pE-\solo-\orgE e8 e4
+    e4. e8 dis4 %145
+    e2 \clef treble c'4-!
+    c-! \clef "treble_8" e, e
+    dis2 d4
+    cis2 c4
+    c2 h4 %150
+    c d d,
+    g \clef treble d''-! d-!
+    d-! \clef "treble_8" gis,, gis
+    a2 a4
+    d e e, %155
+    \clef bass \tempoDomine a8 gis a h c d
+    e e, e fis gis e
+    a a, a h c d
+    e d e fis gis e
+    a gis a h c a %160
+    d c d c h a
+    gis fis gis e fis gis
+    a c, d h e e,
+    a \mvTr a'-!\f-\rip gis-! fis-! e d
+    c f e d c h %165
+    a c d h e e,
+    a \mvTr gis\p-\org a h c d
+    e d e fis gis e
+    a gis a h c a
+    d, c d e f d %170
+    g f g a h g
+    c, h c d e d
+    c e f d g g,
+    c4 r r
+    r8 \mvTr c'\fE-\rip h a g f %175
+    e c f d g g,
+    c4 c, r8. \mvTr c'16\p-\org
+    g'4 g, r8. e'16
+    a4 a, r8. fis'!16
+    h4 h, r8. e'16 %180
+    e,8 g a fis h h,
+    e \mvTr e'\fE-\rip d c h a
+    g c h a g fis
+    e g a fis h h,
+    e \mvTr dis\p-\org e fis g e %185
+    h' h, h cis? dis h
+    e dis e fis g e
+    a e a g fis e
+    fis d g fis e d
+    e c fis e dis? cis? %190
+    dis cis? dis h cis? dis
+    e e' a, fis h h,
+    e4 \mvTr a,\f-\rip h
+    e, r r\fermata \bar "||" %194 finis
+  }
+}
+
+GratiasBassFigures = \figuremode {
+  r2. %144
+  <4 2>2 <6>4 %145
+  r2.
+  r4 <6>2
+  <7>4 <6> <6 4>
+  <7> <6\\> <6! 4>
+  <4 2>2 <6>4 %150
+  <6 5> <4> <3>
+  r2.
+  r4 <[5 3]>2
+  r2.
+  <[6 5 _!]>4 <4> <_+> %155
+  r2.
+  <_+>
+  r
+  <_+>
+  r %160
+  <_!>
+  <6>
+  \bo <[9]>8 <6> \bc <[_!]>4 <_+>
+  r2.
+  r %165
+  r4 <[_!]> <_+>
+  r2.
+  <_+>
+  r4 \bo <[7! _+]>2
+  \bc <[_! \l]>2. %170
+  r2 <[6 5!]>4
+  r2.
+  r
+  r
+  r %175
+  r
+  r
+  \bo <[4]>4 <3> r8. \bc <[7] _+>16
+  \bo <[9 4]>4 <8 3> r8. \bc <[7 \l]>16
+  <5+ _+>2. %180
+  r2 <_+>4
+  r2.
+  r
+  r2 <_+>4
+  r2. %185
+  <[_+]>
+  r
+  r
+  <6 5>8 <\t \t> <[5]>2
+  <6 5>8 <\t \t> <5>2 %190
+  <6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  r2 <[_+]>4
+  r2 <_+>4
+  r2. %194 finis
+}

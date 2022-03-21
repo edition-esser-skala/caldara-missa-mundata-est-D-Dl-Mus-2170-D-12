@@ -207,3 +207,107 @@ GloriaTenoreLyrics = \lyricmode {
   bo -- nae vo -- lun -- ta --
   tis. %40 finis
 }
+
+GratiasTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 3/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #144
+    \mvTr e4.\pE^\soloE e8 e4
+    e4. e8 dis4 %145
+    e e r
+    r e e
+    dis2 d4
+    cis4. cis8 c4
+    c4. c8 h4 %150
+    c( d d,)
+    g r r
+    r gis gis
+    a4. a8 a4
+    d( e e,) %155
+    \tempoDomine a r r
+    r e' e8 e
+    c4 a r
+    r e' e
+    c a r %160
+    r f' f
+    h,2 h4~
+    h8 a a4 gis
+    a r r
+    R2.*3 %167
+    r4 e' e8 e
+    c4 a r
+    r d c %170
+    h4. h8 h4
+    r c c
+    c2( h4)
+    c r r
+    R2.*2 %176
+    r4 e e8 e
+    d4 d d8 d
+    d4 c fis!8[( e]
+    dis4.) dis8 e4 %180
+    e2( dis4)
+    e r r
+    R2.*2
+    r4 e e8 e %185
+    dis4 h r
+    r e e8 e
+    c4. d8 e4
+    d2.
+    c %190
+    \once \tieDashed h~
+    h8[ g' fis e] dis8.[\trill e16]
+    e4 r r
+    R2.\fermata \bar "||" %194 finis
+  }
+}
+
+GratiasTenoreLyrics = \lyricmode {
+  Gra -- ti -- as %144
+  a -- gi -- mus %145
+  ti -- bi
+  pro -- pter
+  ma -- gnam
+  glo -- ri -- am,
+  glo -- ri -- am %150
+  tu --
+  am,
+  pro -- pter
+  glo -- ri -- am
+  tu -- %155
+  am.
+  Do -- mi -- ne
+  De -- us,
+  Rex coe --
+  le -- stis, %160
+  De -- us
+  Pa -- ter __
+  o -- mni -- po --
+  tens,
+
+  Do -- mi -- ne %168
+  Fi -- li
+  u -- ni -- %170
+  ge -- ni -- te,
+  Je -- su
+  Chri --
+  ste,
+
+  Do -- mi -- ne %177
+  De -- us, A -- gnus
+  De -- i, Fi --
+  li -- us %180
+  Pa --
+  tris,
+
+  Do -- mi -- ne %185
+  De -- us,
+  Fi -- li -- us
+  Pa -- _ _
+  _
+  _ %190
+  _
+  _
+  tris. %193 finis
+}

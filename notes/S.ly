@@ -320,12 +320,45 @@ LaudamusSopranoLyrics = \lyricmode {
   te. %124 finis
 }
 
-% Gra -- ti -- as a -- gi -- mus ti -- bi
-% pro -- pter ma -- gnam glo -- ri -- am tu -- am,
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+GratiasSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #144
+    \mvTr h'4.\pE^\soloE h8 h4
+    a4. a8 h4 %145
+    g e c'8 c
+    c2.~
+    c4 h h~
+    h ais a~
+    a4. a8 h4( %150
+    a) a2\trill
+    h4 d d
+    d2 d4
+    c4. h8 a4(
+    h) h2\trill %155
+    \tempoDomine a4 r r
+    R2.*37 %193
+    R2.\fermata \bar "||" %194 finis
+  }
+}
+
+GratiasSopranoLyrics = \lyricmode {
+  Gra -- ti -- as %144
+  a -- gi -- mus %145
+  ti -- bi pro -- pter
+  ma --
+  _ gnam __
+  glo -- _
+  ri -- am __ %150
+  tu --
+  am, pro -- pter
+  ma -- gnam
+  glo -- ri -- am __
+  tu -- %155
+  am. %156 finis
+}
+
 % Qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % Qui tol -- lis pec -- ca -- ta mun -- di:

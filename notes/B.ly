@@ -213,3 +213,84 @@ GloriaBassoLyrics = \lyricmode {
   bo -- nae vo -- lun -- ta --
   tis. %40 finis
 }
+
+GratiasBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #144
+    R2.*12 %155
+    \tempoDomine r4 \mvTr a'\pE^\soloE a8 a
+    gis4 e r
+    r a a
+    gis e r
+    r a a %160
+    f2.
+    e
+    c4 d4. e8
+    a,4 r r
+    R2.*2 %166
+    r4 a' a8 a
+    gis4 e r
+    r g g
+    f?4. f8 f4^\critnote %170
+    r g f?
+    e4. e8 e4
+    e8 e f4( g)
+    c, r r
+    R2.*2 %176
+    r4 c' c8 c
+    c4 h h8 h
+    h4 a a8[( g!]
+    fis!4.) fis8 g4 %180
+    g( a8[ fis] h4)
+    e, r r
+    R2.*3 %185
+    r4 h' h
+    g e r
+    r c' c8 c
+    c4 h2~
+    h4 \once \tieDashed a2~ %190
+    a2.
+    g4 a h
+    e, r r
+    R2.\fermata \bar "||" %194 finis
+  }
+}
+
+GratiasBassoLyrics = \lyricmode {
+  Do -- mi -- ne %156
+  De -- us,
+  Rex coe --
+  le -- stis,
+  De -- us %160
+  Pa --
+  ter
+  o -- mni -- po --
+  tens,
+
+  Do -- mi -- ne %167
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te, %170
+  u -- ni --
+  ge -- ni -- te,
+  Je -- su Chri --
+  ste,
+
+  Do -- mi -- ne %177
+  De -- us, A -- gnus
+  De -- i, Fi --
+  li -- us %180
+  Pa --
+  tris,
+
+  A -- gnus %186
+  De -- i,
+  Fi -- li -- us
+  Pa -- _
+  _ %190
+
+  _ _ _
+  tris. %193 finis
+}
