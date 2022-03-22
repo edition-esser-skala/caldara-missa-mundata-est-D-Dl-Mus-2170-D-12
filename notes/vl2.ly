@@ -336,3 +336,57 @@ QuiTollisViolinoII = {
     g1\fermata \bar "||" %235 finis
   }
 }
+
+QuoniamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #236
+    r2 \mvTr c'16\fE-\tuttiE c, e c g' e c' g
+    e' e, g e c' g e' c e c c e c e e c
+    d d d d d d d d c c c c c c c c
+    h h h h h h h h a a a a a a a a
+    g g g g g' g g g f8\trill f e\trill e %240
+    d\trill d c\trill c h\trill h a\trill a
+    h16 h h h h h h h h h h h h h h h
+    c g e' g, d' d d d c8 c, r4
+    \mvTr c8\pE-\vvE d e d c e f g
+    c, d e c r g' g, g' %245
+    r c, c' f, r g e g
+    r f a f r d h' d
+    r e e, e' r e e, e'
+    r fis a fis r d d, d'
+    r a16 h c c, a a' h8 e a, fis' %250
+    <g h, d, g,>4 r8 \mvTr h,\f-\tuttiE c c h h
+    a a g g' fis fis e e
+    fis16 fis, fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    h h h h a a a a h4 r
+    r r8 \mvTr c'\pE-\vv c16 b a g f e8 c16 %255
+    d8 d, r d'' d16 c h a g f8 d16
+    e8 e, r e' e16 d c h c8 a
+    r d d d, r g g g,
+    r c' c c, r f' f f,
+    r h h h, r e' e, e' %260
+    c f gis,8.\trill a16 a8 \mvTr a'16\f-\tutti gis a8 e
+    r d16 c d8 a h d f h,
+    c16 c c c h h e d c8 a, r4
+    r r8 \mvTr a''\pE-\vvE a16 g! f e d f f c!
+    h4 r8 g' g16 f e d c e e c %265
+    a4-\critnote r r2
+    r4 r8 c f\trill f e\trill e
+    d\trill d c\trill c h\trill h a\trill a
+    h16 h h h h h h h h h h h h h h h
+    c c c c c c d d c4 r %270
+    r8 f f, f' r g, g g,
+    r a' a a, r h' h h,
+    R1
+    \mvTr c'16\fE-\tuttiE c, e c g' e c' g e' e, g e c' g e' c
+    e c c e c e e c d d d d d d d d %275
+    c c c c c c c c h h h h h h h h
+    a a a a a a a a g g g g g' g g g
+    f f f f e e e e d d d d c c c c
+    h h h h a a a a h h h h h h h h
+    h h h h h h h h c c c c d d d d %280
+    c8 c, r4 r2\fermata \bar "||" %281 finis
+  }
+}

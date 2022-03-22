@@ -24,6 +24,7 @@ tempoGratias = \tempoMarkup "Andante"
   tempoDomine = \tempoMarkup "Vivace"
 tempoQuiTollis = \tempoMarkup "[Allegro]"
   tempoQuiTollisB = \tempoMarkup "Adagio"
+tempoQuoniam = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

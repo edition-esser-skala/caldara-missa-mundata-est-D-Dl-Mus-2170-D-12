@@ -346,3 +346,57 @@ QuiTollisViolinoI = {
     h1\fermata \bar "||" %235 finis
   }
 }
+
+QuoniamViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #236
+    \mvTr c'16\fE-\tuttiE c, e c g' e c' g e' e, g e c' g e' c
+    g' g, c g e' c g' e c' e, e c' e, c' c e,
+    d c' c d, d h' h d, c h' h c, c a' a c,
+    h a' a h, h g' g h, a g' g a, a f' f a,
+    g f' f g, g e' e c' f, h d f, e d' c e, %240
+    d c' h d, c h' a c, h a' g h, a g' f a,
+    g f' f d g, f' f d g,^\critnote f' f d g, f' f d
+    e g, c e, d c' d, h' c8 c, r4
+    \mvTr c8\pE-\vvE d e d c e f g
+    c, d e c r g' g, g' %245
+    r c, c' f, r g e g
+    r f a f r d h' d
+    r e e, e' r e e, e'
+    r fis a fis r d d, d'
+    r a16 h c c, a a' h8 e a, fis' %250
+    <g h, d, g,>4 r8 \mvTr d\f-\tuttiE c16 fis a c, h a' g h,
+    a g' fis a, g fis' e g, fis e' d fis, e d' c e,
+    d c' c a c a' a fis d, c' c a c a' a fis
+    h, d g h, a g' a, fis' g8 g, r4
+    r r8 \mvTr c'\pE-\vv c16 b a g f e8 c16 %255
+    d8 d, r d'' d16 c h a g f8 d16
+    e8 e, r e' e16 d c h c8 a
+    r d d d, r g g g,
+    r c' c c, r f' f f,
+    r h h h, r e' e, e' %260
+    c f gis,8.\trill a16 a8 \mvTr a'16\f-\tutti gis a8 e
+    f d r4 r8 h'16 a h8 d,
+    c16 a' a c, h a' h, gis' a,4 r
+    r r8 \mvTr a'\pE-\vvE a16 g f e d f f c!
+    h4 r8 g' g16 f e d c e e c %265
+    a4 g'~ g8 f16 e f4~
+    f8 e16 d e4 r16 e d f e d' c e,
+    d c' h d, c h' a c, h a' g h, a g' f a,
+    g f' f d g, f' f d g, f' f d g, f' f d
+    e g, d' f, d c' d, h' c8 c, r4 %270
+    r8 f' f, f' r g, g g,
+    r a' a a, r h' h h,
+    r2 \mvTr c'16\fE-\tutti c, e c g' e c' g
+    e' e, g e c' g e' c g' g, c g e' c g' e
+    c' e, e c' e, c' c e, d c' c d, d h' h d, %275
+    c h' h c, c a' a c, h a' a h, h g' g h,
+    a g' g a, a f' f a, g f' f g, g e' e c'
+    f, h d f, e d' c e, d c' h d, c h' a c,
+    h a' g h, a g' f a, g f' f d g, f' f d
+    g, f' f d g, f' f d e g, c g d c' d, h' %280
+    c8 c, r4 r2\fermata \bar "||" %281 finis
+  }
+}

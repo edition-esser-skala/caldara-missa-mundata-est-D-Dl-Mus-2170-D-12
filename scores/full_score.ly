@@ -371,10 +371,15 @@
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -386,7 +391,7 @@
             }
           >>
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {

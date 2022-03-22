@@ -337,3 +337,51 @@ QuiTollisViola = {
     h1\fermata \bar "||" %235 finis
   }
 }
+
+QuoniamViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #236
+    e16\fE e e e e e e e g g g g g g g g
+    g g g g g g g g g g g g g g g g
+    h,8 c d h e e e f
+    g f16 e d8 g c, c c d
+    e d c c' a g g a %240
+    f g e f d e c d
+    d16 d d d d d d d d d d d d d d d
+    c8 e g g c,4 r
+    R1*7 %250
+    r4 r8 g'\fE e fis d e
+    c^\critnote d h c a h g a
+    a16 a d d d d d d d d d d d d d d
+    d8 e r d d4 r
+    r r8 e\pE f f, r f' %255
+    fis e fis d g g, r g'
+    gis fis gis e a a, r a'
+    d d, r d' g, g, r g'
+    c c, r c' f, f, r f'
+    h h, r h' e, e, r e' %260
+    a d, e e, e'4 r8 cis\f
+    a4 r8 f' e4 r8 e
+    e f r e a, \mvTr h\pE-\org c a
+    g!4 r8 g' f a d, f
+    g g, r f' e g c, e %265
+    f f, r e' f f, r d'
+    e e, r c'' d h c a
+    h g a f g e f d
+    g16 g h h h h d d g, g h h h h d d
+    c8 f, g g, c d e c %270
+    f f, r f' g g, r g'
+    a a, r a' h h, r h'
+    c f, g g, e'16\fE e e e e e e e
+    g g g g g g g g g g g g g g g g
+    g g g g g g g g h,8 c d h %270
+    e e e f g f16 e d8 g
+    c, c c d e d c c'
+    a g g a f g e f
+    d e c d d16 d d d d d d d
+    d^\critnote d d d d d d d c8 e f g %280
+    c,4 r r2\fermata \bar "||" %281 finis
+  }
+}

@@ -202,6 +202,7 @@ GratiasOboeI = {
     e r r\fermata \bar "||" %194 finis
   }
 }
+
 QuiTollisOboeI = {
   \relative c' {
     \clef treble
@@ -250,5 +251,40 @@ QuiTollisOboeI = {
       h4 r e8 e e e
     d c h!4 a2
     h1\fermata \bar "||" %235 finis
+  }
+}
+
+QuoniamOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #236
+    c'16\fE c, e c g' e c' g e' e, g e c' g e' c
+    g' g, c g e' c g' e c' e, e c' e, c' c e,
+    d c' c d, d h' h d, c h' h c, c a' a c,
+    h a' a h, h g' g h, a g' g a, a f' f a,
+    g f' f g, g e' e c' f, h d f, e d' c e, %240
+    d c' h d, c h' a c, h a' a g, a g' f a,
+    g f' f d g, f' f d g,^\critnote f' f d g, f' f d
+    e g, c e, d c' d, h' c8 c, r4
+    R1*7 %250
+    r4 r8 d'\f c16 fis a c, h a' g h,
+    a g' fis a, g fis' e g, fis e' d fis, e d' c e,
+    d c' c a c a' a fis d, c' c a c a' a fis
+    h, d g h, a g' a, fis' g8 g, r4
+    R1*6 %260
+    r2 r8 a'16\f gis a8 e
+    f d r4 r8 h'16 a h8 d,
+    c16 a' a c, h a' h, gis' a,4 r
+    R1*9 %272
+    r2 c16\fE c, e c g' e c' g
+    e' e, g e c' g e' c g' g, c g e' c g' e
+    c' e, e c' e, c' c e, d c' c d, d h' h d, %275
+    c h' h c, c a' a c, h a' a h, h g' g h,
+    a g' g a, a f' f a, g f' f g, g e' e c'
+    f, h d f, e d' c e, d c' h d, c h' a c,
+    h a' g h, a g' f a, g f' f d g, f' f d
+    g, f' f d g, f' f d e g, c g d c' d, h' %280
+    c8 c, r4 r2\fermata \bar "||" %281 finis
   }
 }

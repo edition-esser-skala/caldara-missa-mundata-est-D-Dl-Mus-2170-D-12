@@ -247,3 +247,37 @@ QuiTollisOboeII = {
     h1\fermata \bar "||" %235 finis
   }
 }
+
+QuoniamOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #236
+    r2 c'16\fE c, e c g' e c' g
+    e' e, g e c' g e' c e c c e c e e c
+    d d d d d d d d c c c c c c c c
+    h h h h h h h h a a a a a a a a
+    g g g g g' g g g f8\trill f e\trill e %240
+    d\trill d c\trill c h\trill h a\trill a
+    h16 h h h h h h h h h h h h h h h
+    c g e' g, d' d d d c8 c, r4
+    R1*7 %250
+    r4 r8 h'\f c c h h
+    a a g g' fis fis e e
+    fis16 fis, fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+    h h h h a a a a h4 r
+    R1*6 %260
+    r2 r8 a'16\f gis a8 e
+    r d16 c d8 a h d f h,
+    c16 c c c h h e d c4 r
+    R1*10
+    c16\fE c, e c g' e c' g e' e, g e c' g e' c
+    e c c e c e e c d d d d d d d d %275
+    c c c c c c c c h h h h h h h h
+    a a a a a a a a g g g g g' g g g
+    f f f f e e e e d d d d c c c c
+    h h h h a a a a h h h h h h h h
+    h h h h h h h h c c c c d d d d %280
+    c8 c, r4 r2\fermata \bar "||" %281 finis
+  }
+}
