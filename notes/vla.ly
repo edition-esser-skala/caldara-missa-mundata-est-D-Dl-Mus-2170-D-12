@@ -385,3 +385,55 @@ QuoniamViola = {
     c,4 r r2\fermata \bar "||" %281 finis
   }
 }
+
+CumSanctoViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 3/2 \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    e2\fE c4 d e2
+    c2. c4 c2
+    c c c'4. h8
+    a2. a4 a2 %285
+    a a f
+    r e4 d c h
+    a2. h4 c2 \noBreak
+    d e e \bar "|"
+    \time 4/4 \tempoAmen e4 r r2 \noBreak %290
+    R1*3
+    r4 a, h e~
+    e8 d16 c d8 e c a e'4~ %295
+    e8 d16 c d8 e16 d cis4. dis8
+    e4 c8 a h4.\trill h8
+    a4 r r8 d'16 c h8 a
+    g4 g, r8 c'16 h a8 g
+    f4 f, r8 h'16 a gis8 fis %300
+    e4 e, r8 a'16 g fis8 e
+    dis h e4 h2
+    e4 e4. dis16 cis dis8 h
+    cis4 dis e h~
+    h8 ais16 gis ais8 fis gis4 ais %305
+    h h cis dis
+    e e4. d!16 c!16 d8 e
+    c a r4 a2
+    h4 e4. d16 c d8 e
+    c a a'4 e2 %310
+    a,4 r8 a' d d, r d'
+    g, g, r g' c c, r c'
+    f, f, r f' h h, r h'
+    e, e, r e' a4 d,
+    e e, a8 h c d %315
+    e4 e, a r8 a'
+    d, d'16 c h8 a g4 g,
+    r8 c'16 h a8 g f4 f,
+    r8 h'16 a g8 f e4 e,
+    a'8 a, d d' e,4 r8 e %320
+    a h c d e4 r8 e,
+    c16\ff a a a f' f f f d d d d d d d d
+    gis e e e e e e e c a a a a' a g g
+    f f e e d d c d e gis gis gis e c' c c
+    d f, f f e gis gis gis a a, a a e' e, e e %325
+    a' a, a a e' e, e e a' a, a a e' e, e e
+    a4 r r2\fermata \bar "|." %327 finis
+  }
+}

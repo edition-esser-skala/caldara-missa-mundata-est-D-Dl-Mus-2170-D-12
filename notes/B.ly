@@ -456,3 +456,100 @@ QuoniamBassoLyrics = \lyricmode {
   _ _ _ _
   _ su Chri -- ste. %273 finis
 }
+
+CumSanctoBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    \mvTr c2\fE^\tuttiE c c
+    c2. c4 c2
+    a' a a
+    a2. a4 a2 %285
+    d, d1
+    e2. d4 c( h)
+    a2. h4 c2 \noBreak
+    d e( e,) \bar "|"
+    \time 4/4 \tempoAmen a4 r r2 \noBreak %290
+    R1*4
+    r2 r4 e' %295
+    fis h4. a16[ gis] a8[ h]
+    gis[ e] a4 e2
+    a,4 r r8 d'16([ c] h8[ a]
+    g4) g, r8 c'16([ h] a8[ g]
+    f4) f, r8 h'16([ a] gis8[ fis] %300
+    e4) e, r8 a'16[ g] fis8[ e]
+    dis4 e h2
+    e4 r r2
+    r r4 h'~
+    h8[ ais16 gis] ais8[ fis] gis4 ais %305
+    h h, cis( dis)
+    e r r2
+    r a,
+    h4 e4. d16[ c] d8[ e]
+    c[ a] a'4 e2 %310
+    a,4 r8 a' d2
+    g, c
+    f, h
+    e, a4 d,
+    e2 a,8[ h c d] %315
+    e2 a,4 r8 a'
+    d2 g,
+    c f,
+    h e,
+    a4 d, e2 %320
+    a,8([ h c d)] e2
+    r4 f r d
+    r e8[ d] c[ a a' g!]
+    f[ e] d[ c16 d] e4 a
+    d, e a e %325
+    a e a, e'
+    a r r2\fermata \bar "|." %327 finis
+  }
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+  Cum San -- cto %282
+  Spi -- ri -- tu,
+  cum San -- cto
+  Spi -- ri -- tu %285
+  in glo --
+  _ ri -- a __
+  De -- i Pa --
+  tris, a --
+  men. %290
+
+  A -- %295
+  _ _ _ _
+  _ _ _
+  men, a --
+  men, a --
+  men, a -- %300
+  men, a -- _
+  _ _ _
+  men,
+  a --
+  _ _ _ %305
+  _ men, a --
+  men,
+  a --
+  _ _ _ _
+  _ _ _ %310
+  men, a -- _
+  _ _
+  _ _
+  _ men, a --
+  _ _ %315
+  _ men, a --
+  _ _
+  _ _
+  _ _
+  _ _ men,
+  a -- men,
+  a -- _
+  _ _
+  _ _ _ _
+  _ _ men, a --
+  men, a -- men, a --
+  men.
+}

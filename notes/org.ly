@@ -829,3 +829,118 @@ QuoniamBassFigures = \figuremode {
   <5\! 3\!>4.. <5 3>16 \bassFigureExtendersOff r8 \bo <[6 \l]> \bc <[6 5]>4 %280
   r1 %281 finis
 }
+
+CumSanctoOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/2 \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    \mvTr c2\fE-\markup \remark "a 3" c c
+    c2. c4 c2
+    a-\tutti a a
+    a2. a4 a2 %285
+    d1 d2
+    e e4 d c h
+    a2. h4 c2 \noBreak
+    d e e, \bar "|"
+    \time 4/4 \tempoAmen a4 \clef treble a'' h e~ \noBreak %290
+    e8 d16 c d8 e << {
+      c a e'4~
+      e8 d d e16 d cis4. dis8
+      e^\critnote d c a h2
+      a4
+    } \\ {
+      r4 e
+      fis h4. a16 gis a8 h
+      gis e a2 gis4
+      a
+    } >> \clef "treble_8" a, h e~
+    e8 d16 c d8 e c a \clef bass e4 %295
+    fis h4. a16 gis a8 h
+    gis e a4 e2
+    a,4 r r8 d'16 c h8 a
+    g4 g, r8 c'16 h a8 g
+    f4 f, r8 h'16 a gis8 fis %300
+    e4 e, r8 a'16 g fis8 e
+    dis h e4 h2
+    e4 \clef "treble_8" << {
+      e' fis h~
+      h8 a16 g a8 h g[ e]
+    } \\ {
+      e4. dis16 cis dis8 h
+      cis4 dis e
+    } >> \clef bass h~
+    h8 ais16 gis ais8 fis gis4 ais %305
+    h h, cis dis
+    e \clef "treble_8" e'4. d!16 c!16 d8 e
+    c a r4 \clef bass a,2
+    h4 e4. d16 c d8 e
+    c a a'4 e2 %310
+    a,4 r8 a' d d, r d'
+    g, g, r g' c c, r c'
+    f, f, r f' h h, r h'
+    e, e, r e' a4 d,
+    e e, a8 h c d %315
+    e4 e, a r8 a'-\markup \remark "Tutti Registri"
+    d, d'16 c h8 a g4 g,
+    r8 c'16 h a8 g f4 f,
+    r8 h'16 a g8 f e4 e,
+    a' d, e r8 e %320
+    a, h c d e2
+    r4 f r d
+    r e8 d c a a' g!
+    f e d c16 d e4 a
+    d, e a16 a, a a e' e, e e %325
+    a' a, a a e' e, e e a' a, a a e' e, e e
+    a4 r r2\fermata \bar "|." %327 finis
+  }
+}
+
+CumSanctoBassFigures = \figuremode {
+  r1. %282
+  r
+  r
+  r %285
+  r1 \bo <[8 6]>4 \bc <[7 5]>
+  <_+>2. <\t>4 <6>2
+  r2. <6\\>4 <6>2
+  \bo <[6]> <4> \bc <[_+]>
+  r1 %290
+  r
+  r
+  r
+  r2 \bo <[7 \l]>8 <6\\> <_+>4
+  <4 2+>8 <\t \t> <6 _+> <_+> \bc <[6 \l]>4 <_!> %295
+  <7> <[5+] 3> <4 [2+]> <6+ _+>8 <[5+ _+]>
+  <6>4 <[_!]> <4> <_+>
+  r2 r8 <5 3> <\t \t>4
+  <7 3> <\t \t> r8 <7 3> <\t \t>4
+  <7 3> <\t \t> r8 <7 3> <\t \t>4 %300
+  <7 _+> <\t \t> r8 <5 3> <\t \t>4
+  <7 [_+]>2 \bo <[5+] 4>4 \bc <[\t] _+>
+  r1
+  r2. <5+ 4>8 <\t _+>
+  <6+ [4] 2+>4 <6 [_+]> <7+>8 <6> <6 5 [_+]>4 %305
+  \bo <[5+] _+> \bc <[\t] \t> <7>8 <6!> <6 5 [_+]>4
+  <_!> <3> <2+>8 <\t> <6 _+> <_+>
+  <6>1
+  <7>4 <_+> <2+> <6 _+>8 <\t _+>
+  <6>2 \bo <[4]>4 \bc <[_+]> %310
+  r1
+  <7>4. <\t>8 <7>4. <\t>8
+  <7>4. <\t>8 <7>4. <\t>8
+  \bo <7 [_+]>4. \bc <\t [\t]> <[6 _+]>4
+  \bo <9+ [4]> \bc <8 [_+]> r2 %315
+  <4>4 <_+>2.
+  r2 <7 3>4 <\t \t>
+  r8 <7 3> <\t \t>4 <7 3>4 <\t \t>
+  r8 <7 3> <\t \t>4 <7 3>4 <\t \t>
+  <[7]>4 <7> \bo <[9] 4> \bc <8 _+>8 \bc <[\t] \t> %320
+  r2 <5 4>4 <\t _+>
+  r <5> r <6 5>
+  r <_+> <6> <5 _+>8 <\t \t>
+  <6>2 <7 _+>
+  <6 5>4 <_+>2 q4 %325
+  r q2 q4
+  r1 %327 finis
+}

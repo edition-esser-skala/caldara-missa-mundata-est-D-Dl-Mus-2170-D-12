@@ -400,3 +400,57 @@ QuoniamViolinoI = {
     c8 c, r4 r2\fermata \bar "||" %281 finis
   }
 }
+
+CumSanctoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    \mvTr g''2\fE-\tuttiE e c
+    g'4 e c g e'8( f g4)
+    a2 e-! e-!
+    e4 c a e c'8( d e4) %285
+    f2-! f-! h4 a
+    gis4-! e-! gis e a e
+    c'2. h4 a2 \noBreak
+    h4 a a2 gis \bar "|"
+    \time 4/4 \tempoAmen a4 a, h e~ \noBreak %290
+    e8 d16 c d8 e c a e'4~
+    e8 d d e16 d cis4. dis8
+    e d c a h2
+    a4 e' d8 c h c16 h
+    a4 h c r %295
+    r h cis fis
+    e8 gis a4. gis16 fis gis8.\trill a16
+    a8 e16-! d-! c8 a f'4 f,
+    r8 d'16-! c-! h8 g e'4 e,
+    r8 c'16 h a8 f-\critnote d'4 d, %300
+    r8 h''16 a gis8 e c'4 c,
+    c'8 h16 a h8 e, fis4.\trill fis8
+    e4 r r2
+    r r4 h
+    cis fis4. e16 dis e8 fis %305
+    dis h dis4 e fis
+    e r r r8 h'
+    c h16-! a-! h8 a16-! gis-! a8 e a4~
+    a gis a r
+    r a, h e %310
+    a, r r8 d'16-! c-! h8 a
+    g4 g, r8 c'16 h a8 g
+    f4 f, r8 h'16 a gis8 fis
+    e4 e, r8 c'' h fis
+    gis4.\trill gis8 a4 c, %315
+    h4.\trill h8 a4 r8 c'
+    d d, r d' g, g, r g'
+    c c, r c' f, f, r f'
+    h h, r h' e, e, r e'
+    a, a, d d' e,4 r8 e' %320
+    a, h c d e4 r8 e,
+    a16\ff a' a a a a a a h, a' a a a a a a
+    h, h' h h h h h h e, a a a a a a a
+    d, a' a a a a a a gis e e e a e e e
+    d h h h gis' d d d c8 a' h, gis' %325
+    <a c, e, a,>4-! <gis h, e,>-! <a c, e, a,>-! <gis h, e,>-!
+    <a c, e, a,> r r2\fermata \bar "|." %327 finis
+  }
+}

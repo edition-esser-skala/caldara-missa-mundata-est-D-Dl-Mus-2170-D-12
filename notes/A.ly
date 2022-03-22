@@ -479,3 +479,106 @@ QuiTollisAltoLyrics = \lyricmode {
   no --
   bis. %235 finis
 }
+
+CumSanctoAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    \mvTr g'2\fE^\tuttiE g g
+    g2. g4 g2
+    a a a
+    a2. a4 a2 %285
+    f f f4 f
+    e1 e2
+    a2.( gis4 a2) \noBreak
+    f e1 \bar "|"
+    \time 4/4 \tempoAmen e4 r r2 \noBreak %290
+    r r4 e
+    fis h4. a16[ gis?] a8[ h]
+    gis[ e] a2 gis4
+    a a4. gis?16[ fis] gis8[ a16 gis]
+    fis4. gis8 a4 h %295
+    a fis8[ g16 fis] e4 fis
+    e r r2
+    r4 a2.
+    h1
+    a %300
+    gis2 e
+    fis4 g8[ e] e4 dis
+    e e fis h~
+    h8[ a16 g] a8[ h] g e r4
+    R1 %305
+    r4 h'4. a!16[ g] a8[ h]
+    g e g4( fis4. gis8)
+    a4 r \once \tieDashed a2~
+    a4 gis a4. gis8
+    a4 a2( gis4) %310
+    a2 r4 a
+    h1
+    a
+    gis?2 e4 fis?~
+    fis e2 e4 %315
+    e2 e
+    r4 a h2~
+    h a~
+    a g~
+    g4 f2 e4~ %320
+    e e e2
+    e4 r f r
+    e r a2~
+    a gis4 a~
+    a gis a gis %325
+    a h a gis
+    a r r2\fermata \bar "|." %327 finis
+  }
+}
+
+CumSanctoAltoLyrics = \lyricmode {
+  Cum San -- cto %282
+  Spi -- ri -- tu,
+  cum San -- cto
+  Spi -- ri -- tu %285
+  in glo -- ri -- a
+  De -- i
+  Pa --
+  tris, a --
+  men. %290
+  A --
+  _ _ _ _
+  _ _ _
+  men, a -- _ _
+  _ _ men, a -- %295
+  _ _ _ _
+  men,
+  a --
+  _
+  _ %300
+  _ _
+  _ _ men, a --
+  men, a -- _ _
+  _ _ men,
+  %305
+  a -- _ _
+  _ men, a --
+  men, a --
+  _ _ _
+  men, a -- %310
+  men, a --
+  _
+  _
+  _ men, a --
+  _ men, %315
+  a -- men,
+  a -- _
+  _
+  _
+  _ _ %320
+  men, a --
+  men, a --
+  men, a --
+  _ _
+  _ men, a -- %325
+  men, a -- men, a --
+  men. %327 finis
+}

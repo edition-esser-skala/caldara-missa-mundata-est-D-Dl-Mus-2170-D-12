@@ -401,3 +401,102 @@ QuiTollisTenoreLyrics = \lyricmode {
   no --
   bis. %235 finis
 }
+
+CumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 3/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    \mvTr e2\fE^\tuttiE e e
+    e2. e4 e2
+    e e e
+    e2. e4 e2 %285
+    d d d4 c
+    h1 c2
+    e2.( d4 c2) \noBreak
+    h h1 \bar "|"
+    \time 4/4 \tempoAmen c4 r r2 \noBreak %290
+    R1*3
+    r4 a h e~
+    e8[ d16 c] d8[ e] c[ a] e'4~ %295
+    e8[ d16 c] d8[ e16 d] cis4. dis8
+    e4 c8([ a] h2)
+    a4 c \once \tieDashed d2~
+    d \once \tieDashed c~
+    c h~ %300
+    h \once \tieDashed a~
+    a4 g! fis2
+    g4 e'4. dis16[ cis] dis8[ h]
+    cis4 dis e4. dis8
+    cis2 h4 cis %305
+    fis, r r2
+    r4 e'4. d!16[ c!] d8[ e]
+    c a r4 e'2(
+    h) fis4 fis'8[( e]
+    e4) c8([ d)] e2~ %310
+    e4 c \once \tieDashed d2~
+    d \once \tieDashed c~
+    c \once \tieDashed h~
+    h a4 h
+    a gis a a~ %315
+    a gis a c
+    d1
+    c
+    h
+    a2. gis4 %320
+    a a2( gis4)
+    a r d r
+    e h c e
+    a, f' h, c(
+    f e) e e8[ d] %325
+    c[ h16 a] gis8[ h] c4 h
+    a r r2\fermata \bar "|." %327 finis
+  }
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+  Cum San -- cto %282
+  Spi -- ri -- tu,
+  cum San -- cto
+  Spi -- ri -- tu %285
+  in glo -- ri -- a
+  De -- i
+  Pa --
+  tris, a --
+  men. %290
+
+  A -- _ _ %294
+  _ _ _ %295
+  _ _ _
+  men, a --
+  men, a -- _
+  _
+  _ %300
+  _
+  _ _
+  men, a -- _ _
+  _ _ men, a --
+  _ _ _ %305
+  men,
+  a -- _ _
+  _ men, a --
+  men, a --
+  men, a -- %310
+  _ _
+  _
+  _
+  _ _
+  men, a -- men, a -- %315
+  _ men, a --
+  _
+  _
+  _
+  _ _ %320
+  men, a --
+  men, a --
+  men, a -- _ _
+  _ _ men, a --
+  men, a -- %325
+  _ _ _ _
+  men. %327 finis
+}

@@ -281,3 +281,57 @@ QuoniamOboeII = {
     c8 c, r4 r2\fermata \bar "||" %281 finis
   }
 }
+
+CumSanctoOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoCumSancto
+      \set Score.currentBarNumber = #282
+    c'2\fE e g4. f8
+    e4 c g e c'8( d e4)
+    e4 d c h a2
+    c4 a e c a'8( h c4) %285
+    a4 d2 c4 d c
+    h-! gis-! h gis c4. d8
+    e2. d4 e2 \noBreak
+    f e2. d4 \bar "|"
+    \time 4/4 \tempoAmen c4 a h e~ \noBreak %290
+    e8 d16 c d8 e c a e'4~
+    e8 d d e16 d cis4. dis8
+    e d c a h2
+    a4 e' d8 c h c16 h
+    a4 h c r %295
+    R1
+    r4 a h e
+    c e f2~
+    f e~
+    e d~ %300
+    d c~
+    c4 h h2
+    h4 r r2
+    r r4 h
+    cis fis4. e16 dis e8 fis %305
+    dis h dis4 e fis
+    e h a h
+    c r c2
+    d4. e16 d c4 h
+    c8 d e d16 c h2 %310
+    c4 e f2~
+    f e~
+    e d~
+    d c
+    h c8 d e f %315
+    h,2 a4 e'
+    f1
+    e
+    d
+    c2 h %320
+    c8 d e f h,2
+    a4 r h r
+    gis r a cis
+    d2. c4
+    h2 c4 e %325
+    e e e e
+    e r r2\fermata \bar "|." %327 finis
+  }
+}
