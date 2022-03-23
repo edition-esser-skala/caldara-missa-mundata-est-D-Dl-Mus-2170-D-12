@@ -335,3 +335,93 @@ CumSanctoOboeII = {
     e r r2\fermata \bar "|." %327 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoCredo
+    R1.
+    a''4\fE a,2 c e4
+    a8 gis a h a e e c c e e c
+    h4^\critnote e2 gis h4
+    h8 a h c h gis gis e h e e h %5
+    a4 c2 e a4
+    h8 a h c h f f d d f f h,
+    gis4 h2 e gis4
+    e2 a, gis
+    a r r %10
+    a'4 a,2 c e4
+    a8 gis a h a e e c c e e c
+    h4 e2 gis h4
+    h8 a h c h gis gis e h e e h
+    a4 c2 e a4 %15
+    h8 a h c h f f d d f f h,
+    gis4 h2 e gis4
+    e2 a, gis4 gis'
+    a8 gis a h a e e c c e e c
+    d4 d'2 f, d'4 %20
+    h8 a h c h4 g2 d4
+    c' c,2 e c'4
+    a8 g a h a4 f2 c4
+    h' h,2 d h'4
+    gis8 fis? gis a gis4 e2 h4 %25
+    a' a,2 c a'4
+    fis8 e fis g fis4 c'2 a4
+    fis a2 fis4 c' a
+    g2 g, fis
+    e'4 e,2 g h4 %30
+    e8 dis e fis e h h g a c h a
+    g4 h2 e h4
+    fis'8 e fis g fis dis dis h fis h h fis
+    dis4 fis2 h fis'4
+    g8 fis g a g e e h g h e, h' %35
+    c4 a'2 fis c4
+    h8 a h c h fis' fis dis h dis dis h
+    g4 c2 h4 fis'2
+    d!8 c d e d2 c~
+    c h1\trill %40
+    c4 r r2 r
+    R1.*5 %46
+    f4\fE d f d f d
+    f d f d f d
+    e g d d2 f4
+    e2 r r %50
+    c'4 c,2 e g4
+    c8 h c d c g g e e g g e
+    d4 g2 h d4
+    d,8 c d e d h' h g d g g d
+    c4 e2 g c4 %55
+    d,8 c d e d a' a f f a a c,
+    h4 d2 g h4
+    g2 c, h
+    c r c'~
+    c8 h c d h g g d d h h g %60
+    g2 r d''~
+    d8 c d e c a a e e c c a
+    a2 r r
+    r r c'
+    h4 g2 d4^\critnote c2 %65
+    d4 d'2 d, d'4
+    e, c2 e c4
+    d2 c h
+    a r r
+    a'4 a,2 c e4 %70
+    a8 gis a h a e e c c e e c
+    h4 e2 gis h4
+    h8 a h c h gis gis e h e e h
+    a4 c2 e a4
+    f8 e f g f h h f d f f h, %75
+    gis4 h2 e gis4
+    e2 a, gis
+    a r r
+    d'4 d,2 f d'4
+    h8 a h c h4 g2 d4 %80
+    c' c,2 e c'4
+    a8 g a h a4 f2 c4
+    h' h,2 d h'4
+    gis8 fis? gis a gis4 e2 c4
+    a' a,2 c h4 %85
+    c2 h2. gis4
+    a2 r r\fermata \bar "||" %87 finis
+  }
+}

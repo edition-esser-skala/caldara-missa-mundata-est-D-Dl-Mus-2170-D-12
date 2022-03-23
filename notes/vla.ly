@@ -437,3 +437,97 @@ CumSanctoViola = {
     a4 r r2\fermata \bar "|." %327 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 3/2 \tempoCredo
+    a'2\fE c h
+    a c h
+    a c a
+    gis h gis
+    e gis e %5
+    a a, a'
+    d, d' d,
+    e e' e,
+    a e e,
+    a c' h %10
+    a c h
+    a c a
+    gis h gis
+    e gis e
+    a a, a' %15
+    d, d' d,
+    e e' e,
+    a e e,
+    a' a, a'
+    f d f %20
+    g h g
+    e c e
+    f a f
+    d h d
+    e gis e %25
+    c a a'
+    dis, dis' dis,
+    dis1.
+    e2 h' h,
+    e g fis %30
+    e g fis
+    e g e
+    dis h' dis,
+    h dis h
+    e e, e' %35
+    a a, a'
+    h h, h'
+    e, h' h,
+    e1 a2~
+    a e e, %40
+    a4 a'2\ppE e4 c a
+    d d'2 a4 f d
+    gis d'2 h gis4
+    e h'2 gis e4
+    a, a'2 e4 c a %45
+    g! g'2 e cis4
+    d\fE d'2 a d,4
+    g, g'2 d g,4
+    c2 g' g,
+    c e d %50
+    c e d
+    c e c
+    h d h
+    g h g
+    c c' c, %55
+    f f, f'
+    g g, g'
+    c, g' g,
+    c c4 d e f
+    g2 g, r %60
+    d' d4 e f g
+    a2 a, r
+    e' e4 f g e
+    f1 f2
+    f1 e2 %65
+    f g gis
+    a1 a,2
+    d e e,
+    a' c h
+    a c h %70
+    a c a
+    gis e' gis,
+    e gis e
+    a a, a'
+    d, d' d, %75
+    e e' e,
+    a e e,
+    a a' a,
+    f' d f
+    g g, g' %80
+    e c e
+    f f, f'
+    d h d
+    e e, \once \tieDashed a'~
+    a e e, %85
+    a d e
+    a, r r\fermata \bar "||" %87 finis
+  }
+}

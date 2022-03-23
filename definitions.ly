@@ -28,6 +28,8 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Andante"
   tempoAmen = \tempoMarkup "Allegro assai"
 
+tempoCredo = \tempoMarkup "[Allegro]"
+
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

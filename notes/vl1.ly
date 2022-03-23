@@ -454,3 +454,97 @@ CumSanctoViolinoI = {
     <a c, e, a,> r r2\fermata \bar "|." %327 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoCredo
+    \mvTr a''4\fE-\tuttiE a,2 c e4
+    a8 gis a h a e e c d f e d
+    c4 e2 a e4
+    h'8 a h c h gis gis d h e e h
+    gis4 h2 e h'4 %5
+    c8 h c d c a a e c e a, e'
+    f4 d'2 h f4
+    e8 d e f e h' h gis e gis gis e
+    a4 c,2 h gis'4
+    a a,2 c e4 %10
+    a8 gis a h a e e c d f e d
+    c4 e2 a e4
+    h'8 a h c h gis gis d h e e h
+    gis4 h2 e h'4
+    c8 h c d c a a e c e a, e' %15
+    f4 d'2 h f4
+    e8 d e f e h' h gis e gis gis e
+    a4 c,2 h gis'4
+    a a,2 c e4
+    a8 g! a h a4 d,2 d'4~ %20
+    d g,,2 h d4
+    g8 f g a g4 c,2 a'4~
+    a f,2 a f'4~
+    f8 e f g f4 h,2 h'4~
+    h e,,2 gis e'4~ %25
+    e8 d e f e4 a,2 a'4~
+    a c2 a fis4
+    dis c'2 a fis4
+    h e,2 dis fis4
+    e2 e, r %30
+    e'4 e,2 g h4
+    e8 dis e fis e h h g g h h g
+    fis4 h2 dis fis4~
+    fis8 e fis g fis dis dis h fis h h fis
+    e4 g2 h e4 %35
+    a8 g a h a c, c a a c c fis,
+    dis4 fis2 h dis4
+    e8 dis e fis e4 d2 h'4
+    gis h2 e, a4~
+    a c, h a' h, gis' %40
+    a \mvTrr a\pp-\soloE a a a a
+    a a a a a a
+    h h h h h h
+    h h h h h h
+    h h a a a a %45
+    a a a a a a
+    \mvTr a8\fE-\tuttiE f f a a f f a a f f a
+    h d, d h' h d, d h' h d, d h'
+    c4 e,2 c' h4
+    c c,2 e g4 %50
+    c8 h c d c g g e d g g d
+    c4 e2 c'2 g4
+    d'8 c d e d h h g d g g d
+    h4 d2 g d4
+    e8 d e f e c' c g e g c, g' %55
+    a4 f2 d4 d' a
+    h8 a h c h d d h g h h g
+    c4 e,2 d h'4
+    c2 r c~
+    c8 h c d h g g d d h h g %60
+    g2 r d''~
+    d8 c d e c a a e e c c a
+    a2 r r
+    r r c'
+    h4 g2 d4^\critnote c c' %65
+    c2 c h~
+    h a4 gis a2
+    f4 a c, a' h, gis'
+    a a,2 c e4
+    a8 gis a h a e e c d f e d %70
+    c4 e2 a e4
+    h'8 a h c h gis gis e h e e h
+    gis4 h2 d h'4
+    c8 h c d c a a f c e a, e'
+    f4 d'2 h f4 %75
+    e8 d e f e h' h gis d gis gis e
+    a4 c,2 h gis'4
+    a a,2 c a'4~
+    a8 gis a h a4 d,2 d'4~
+    d g,,!2 h g'4~ %80
+    g8 f g a g4 c,2 \once \tieDashed c'4~
+    c f,,2 a f'4~
+    f8 e f g f4 h,2 h'4~
+    h e,,2 gis e'4
+    c a' h, a' h, gis' %85
+    a a,2 gis h4
+    a2 r r\fermata \bar "||" %87 finis
+  }
+}

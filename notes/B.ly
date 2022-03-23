@@ -553,3 +553,186 @@ CumSanctoBassoLyrics = \lyricmode {
   men, a -- men, a --
   men.
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/2 \autoBeamOff \tempoCredo
+    r2 \mvTr c'2\fE^\tuttiE h
+    a c h
+    a c a
+    gis( h) gis
+    e e r %5
+    a a4 a a a
+    d2 d d,
+    e e e
+    a4 a e1
+    a,2 c' h %10
+    a c h
+    a c a
+    gis( h) gis
+    e e r
+    a a4 a a a %15
+    d2 d d,
+    e1 e2
+    a a4 a e2
+    a, r r
+    r f'4 f f f8 f %20
+    g2 h g
+    e4 e c2 e4 e
+    f2 a f
+    d h4 h d d8 d
+    e2 gis e %25
+    c a a'
+    dis,1 dis2
+    dis1.
+    e2 h' h,
+    e g fis %30
+    e g fis
+    e( g) e
+    dis h' dis,
+    h( dis) h
+    e e r %35
+    R1.
+    h'2. h4 h2
+    e, h1
+    e a2
+    a( e) e %40
+    a, a' a
+    d1 d2
+    gis,1 gis2
+    r gis gis
+    a2. a4 a2 %45
+    r g! g
+    f2. f4 f2
+    g h2. g4
+    c2( g) g,
+    c1 r2 %50
+    R1.
+    r2 r c'
+    h( d) h
+    g r g
+    c1 c,2 %55
+    f1 f2
+    g g4( f) e d
+    c2 g' g,
+    c c4 d e f
+    g2 g, r %60
+    d'4 d d e f g
+    a2 a, r
+    e'4 e e f g e
+    f1 f2
+    f1 e2 %65
+    f g gis
+    a2. a4 a,2
+    d( e) e,
+    a4 a' c2 h
+    a c h %70
+    a4^\critnote a c2 a
+    gis e' gis,
+    e e r
+    a a1
+    d, d2 %75
+    e1 e2
+    a e1
+    a,2 r a'
+    f d f
+    g h g %80
+    e c e
+    f f, f'
+    d h d
+    e1 \once \tieDashed a2~
+    a e1 %85
+    a,4 a' d,2( e)
+    a, r r\fermata \bar "||" %87 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Cre -- do
+  in u -- num
+  De -- um, in
+  u -- num
+  De -- um, %5
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa --
+  cto -- rem coe --
+  li et ter --
+  rae, cre -- do, %10
+  in u -- num
+  De -- um, in
+  u -- num
+  De -- um,
+  Pa -- trem o -- mni -- po -- %15
+  ten -- tem, fa --
+  cto -- rem
+  coe -- li et ter --
+  rae,
+  vi -- si -- bi -- li -- um %20
+  o -- _ _
+  _ mni -- um, vi -- si --
+  bi -- _ _
+  _ _ li -- um, vi -- si --
+  bi -- li -- um %25
+  o -- mni -- um
+  et in --
+  vi --
+  si -- bi -- li --
+  um. Et in %30
+  u -- num, in
+  u -- num
+  Do -- mi -- num
+  Je -- sum
+  Chri -- stum, %35
+
+  Fi -- li -- um
+  De -- i
+  u -- ni --
+  ge -- ni -- %40
+  tum, et ex
+  Pa -- tre
+  na -- tum
+  an -- te
+  o -- mni -- a, %45
+  an -- te
+  o -- mni -- a
+  o -- mni -- a
+  sae -- cu -- la.
+
+  De %52
+  lu -- mi --
+  ne, de
+  lu -- mi -- %55
+  ne, De --
+  um ve -- rum de
+  De -- o ve --
+  ro, ge -- ni -- tum non
+  fa -- ctum, %60
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri,
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri,
+  per quem %65
+  o -- mni -- a,
+  o -- mni -- a
+  fa -- cta
+  sunt. Qui pro -- pter
+  nos ho -- mi -- %70
+  nes et pro -- pter
+  no -- stram sa --
+  lu -- tem
+  de -- scen --
+  dit, de -- %75
+  scen -- dit
+  de coe --
+  lis, de --
+  scen -- _ _
+  _ dit, de -- %80
+  scen -- _ _
+  _ dit, de --
+  scen -- _ _
+  dit de __
+  coe -- %85
+  lis, de coe --
+  lis. %87 finis
+}
