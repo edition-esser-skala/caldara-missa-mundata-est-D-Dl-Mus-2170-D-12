@@ -538,3 +538,131 @@ CredoViolinoII = {
     a2 r r\fermata \bar "||" %87 finis
   }
 }
+
+EtIncarnatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #88
+    \mvTr a'8\p-\markup \remark "staccato" a a a b b b b
+    b-! a-! r4 a8 a a a
+    b b b b \parOn b-\parenthesize-! \parOff a-\parenthesize-! r4 %90
+    r2 a8 a a a
+    g4 r g8 g g g
+    g4 r r2
+    e'8\f e e e f f f f
+    \parOn f-\parenthesize-! \parOff e-\parenthesize-! r4 e,8\pE e e e %95
+    f4 r fis8 fis fis fis
+    g4 r b8 b b b
+    g4 r r2
+    r cis8 cis cis cis
+    <cis e,>4\fermata r d8 b a a %100
+    a4 r r2
+    R1*3
+    f'8\f f f f g g g g %105
+    \parOn g-\parenthesize-! \parOff f-\parenthesize-! r4 f,8\pE f f f
+    g g g g \parOn g-\parenthesize-! \parOff f-\parenthesize-! r4
+    r2 f8 f f f
+    f4 r r r8 e'
+    a, a, r a' e' e, r4
+    r2 c'8 c c c
+    a4 r r2
+    r r4 r8 f'
+    c16( b a) f' g,8 e' f,4 r
+    R1
+    r2 a8 a a a
+    b b b b a4 r\fermata \bar "||"
+  }
+}
+
+EtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #118
+    r2 \mvTr a'8\fE-\tuttiE a'4 gis8
+    a16 e d e c d h c a c h c a h gis a-\critnote
+    a8 a, r4 a'8 a'4 gis8 %120
+    a c, e2 dis4
+    e16 gis fis gis e f? d e c8 c, r4
+    r16 f' e f d e c d h8 h, r e'~
+    e f gis, e' c a16 a c8 h16 a
+    d8 d r d d4 c8 e %125
+    f f e e d2
+    c4 r r8 c' c16 d h c
+    a4 a,^\critnote r8 d d16 e c d
+    h4 h, r8 e' g!16 e f g
+    f8 f,4 f'8 g, c4 h8 %130
+    c e d16 c d h e8 e h c16 d
+    e8 e e4 e4. d8~
+    d c4 h8 a c f4
+    e8 h c4 c8 c h8. h16
+    a4 r8 c f f, r16 g' f g %135
+    e8 e, r16 f' e f d8 d, r16 e' d e
+    c8 a4^\critnote gis8 a4 r
+    \tempoEtResurrexitB R1\fermata
+    \tempoEtResurrexitC r8 e' e4. d16 c h8 gis'
+    a a, r4 r2 %140
+    a4 a'2 gis4
+    a8 e16 d e8 h' c a16 g fis8 h
+    gis e r4 r16 c' h c a g? g f
+    f4 r r16 h a h c8 c,
+    h4. h8 c4 r8 f %145
+    d4 g8 f16 e d4. d8
+    e4 r r16 h' a h gis h e, d
+    c8 c, r4 r16 g'' f g e g c, b
+    a8 a, r4 r16 e'' d e cis e a, g
+    f8 d r4 d' d'~ %150
+    d cis d r8 a
+    b g16 f e8 a f d e4\trill
+    f r r2
+    f,4 f'2 e4
+    f4. c8 d4 d'~ %155
+    d8 d,4 d'8 c,4 c'~
+    c8 c,4 c'8 b,4 b'~
+    b8 b,4 b'8 a4 r8 b,
+    g4. g8 a4 f'~
+    f8 e16 d e4 d4. e16 d %160
+    c2 h4 c8 h16 a
+    h4. h8 a4 \once \tieDashed a'~
+    a gis a8 e16 d c h c a
+    f'8 d16^\critnote c h8 e c a r4
+    r16 d' c d a d d f, e8 e, r4 %165
+    r d'^\critnote c h
+    c4 c h r
+    r8 e e, e' e,4 r
+    r8 e' e, e' h4 c
+    h2 c8 e gis, e' %170
+    cis4 r r2\fermata \bar "|." %171 finis
+  }
+}
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoSanctus
+    \mvTr e'8\fE-\tuttiE c, c c e' a,, a a
+    \tempoSanctusB a4 a'2-\vvE gis4
+    a e f2
+    e4 c'2 h4~
+    h a2 gis4 %5
+    a r r2
+    r4 gis' a2
+    gis4 a f2
+    e d
+    c4^\critnote c8-\tuttiE c16 c h8 cis16 dis e4~ %10
+    e dis8. dis16 e8 g gis8.( fis32 gis)
+    a8 a, r4 r8 a d4~
+    d c h2
+    \tempoSanctusC c4 r r2
+    r r16 e d e c d h d %15
+    c c h a a8 gis a4 r8 c
+    h e~ e16 d c h c8 a r e'
+    c' c, r a' h h, r g'
+    a a, r f' e c h16 e d e
+    c8 a r e' c' c, r a' %20
+    h h, r g' a a, r f'
+    e h c4-! d-! c-!
+    h4. h8 cis2\fermata \bar "||" %23 finis
+  }
+}

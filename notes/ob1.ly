@@ -432,3 +432,89 @@ CredoOboeI = {
     a2 r r\fermata \bar "||" %87 finis
   }
 }
+
+EtResurrexitOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #118
+    R1
+    a'8\fE a'4 gis8 a16 e d e c d h c
+    a4 r r2 %120
+    a8 a'4 h8 c16 h a g! fis8 h
+    gis e r4 r16 c' h c a h g? a
+    f8 f, r4 r16 h' a h gis a fis gis
+    a e d c h8 gis' a4 r
+    r8 f16 g a8 g16 f h4 c %125
+    a16 f a c g e g c d,8 c'4 h8
+    c16 g f g e f g b, b8 a r4
+    r16 a' g a fis g a c, c8 h r4
+    r16 h' a h gis a h d, d8 c r4
+    r16 d' c d h c d f, f8 e d4^\critnote %130
+    c4 r r r8 c'
+    h16 a h gis c8 c h e, f16 c'^\critnote d f,
+    e d' c e, d c' h d, c h' a c, f4
+    e8 fis?16 gis a8 d, c a'4 gis8
+    a4 r8 a f16 g e f d8 h' %135
+    e,16 f d e c8 a' d,16 e c d h8 gis'
+    a c,^\critnote h4 a r
+    \tempoEtResurrexitB R1\fermata
+    \tempoEtResurrexitC r8 gis'16 a h8 a16 gis a8^\critnote c, h4
+    a a'2 gis4 %140
+    a8 e16 d c h c a f'8 d16 c h8 e
+    c a e'2 dis4
+    e16 h' a h e, d d c c4 r
+    r16 a' g a d, c c h h4 a'~
+    a8 gis16 fis? gis4 a r8 d %145
+    h a16 g c2 h4
+    c r r16 h a h gis h e, d
+    c4 r r16 g' f g e g c, b
+    a4 r r16 e' d e cis e a, g
+    f8 d'4 cis8 d4 r %150
+    r2 d4 \once \tieDashed d'~
+    d cis d r
+    f,, f'2 e4
+    f8 c16 b a g a f d'8 b16 a g8 c
+    a f f'4 f8 d4 b'8 %155
+    e,4 e, e'8 c4 a'8
+    d,4 d, d'8 b4 g'8
+    c,4 c, c'8 c f g
+    f4 e f r
+    r c'4. h16 a h4~ %160
+    h8 e, a4 gis8 fis?16 e a4~
+    a gis a r8 e
+    f d16 c h8 e c a a'4~
+    a gis a16 e d e a8 a,
+    f'4 r r16 h a h gis h h d, %165
+    c8 a a'2 gis4
+    a e^\critnote e r
+    r2 r8 e e, e'
+    e,4 r e' a~
+    a gis a16 e d c h8 gis' %170
+    a4 r r2\fermata \bar "|." %171 finis
+  }
+}
+
+SanctusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoSanctus
+    a''1~\fE
+    \tempoSanctusB a4 r r2
+    R1*7 %9
+    r4 a8 a16 a a8 fis g e %10
+    fis4. fis8 e e, r4
+    a8 c cis8.(\trill h32 cis) d8 d, f'4
+    gis8 e a2 gis4
+    \tempoSanctusC a r r2
+    r16 e d e c d h d c c' h c a h gis h %15
+    a e d c h4 a8 a' a a
+    gis16 e gis a h8 a16 gis a4 r
+    r8 c d d, r h' c c,
+    r a' h h, e a4 gis8
+    a4 r r8 c d d, %20
+    r h' c c, r a' h h,
+    e gis a4 h8 gis a4~
+    a gis a2\fermata \bar "||" %23 finis
+  }
+}

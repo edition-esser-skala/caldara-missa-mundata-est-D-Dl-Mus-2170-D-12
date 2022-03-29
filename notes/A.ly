@@ -766,3 +766,226 @@ CredoAltoLyrics = \lyricmode {
   lis, de coe --
   lis. %87 finis
 }
+
+EtIncarnatusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #88
+    R1
+    \mvTr f1~\pE^\soloE
+    f4 f8 f f16[ g a b] c[ b a c] %90
+    d([ c) c( b)] b8. b16 a4 r
+    r8 g h d16 d g,2~
+    g16[ h h d] d[ h h g] c[ g f e] d4\trill
+    c r r2
+    c4. c8 b'!4. a16([ g)] %95
+    a8. g16 f8 d c'4. b16([ a)]
+    b8. a16 g8 b \once \tieDashed es,2~
+    es8([ d) d( c)] cis8.([ d16) d8.( e16)]
+    \slurDashed e8.[( f16) f8.( g16]) \slurSolid g2
+    g4\fermata r8 a f e e8. e16 %100
+    d4 r8 a' b2~
+    b16[ a g a] b[ a g b] a2~
+    a16[ g f g] a[ g f a] g2~
+    g16[ f e f] g[ f e g] f8 e e8. d16
+    d4 r r2 %105
+    R1*11 %116
+    R1\fermata \bar "||" %117 finis
+  }
+}
+
+EtIncarnatusAltoLyrics = \lyricmode {
+  Et __ %89
+  in -- car -- na -- _ %90
+  _ _ tus est
+  de Spi -- ri -- tu San --
+  _ _ _
+  cto
+  ex Ma -- ri -- a %95
+  Vir -- gi -- ne, Ma -- ri -- a
+  Vir -- gi -- ne, et ho --
+  _
+  _ _
+  mo, et ho -- mo fa -- ctus %100
+  est, et ho --
+  _ _
+  _ _
+  _ _ mo fa -- ctus
+  est. %105 finis
+}
+
+EtResurrexitAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #118
+    r8 \mvTr a'\fE^\tuttiE a gis a a a gis
+    a a r4 r2
+    r8 a a gis a a a gis %120
+    a a r g( fis) g16 g fis4
+    gis r r8 a a g?16 a
+    f8 f r4 r8 gis gis fis16 gis
+    \once \tieDashed e4~ e e r
+    r8 f16 f a8 g16 f h8 h g g %125
+    a4 g8 g a f16 f d4
+    e g8 g a4 a
+    r a8 a h4 h
+    r h8 h c4 c,
+    r4 g'8 g16 g e8 e16 e d4 %130
+    e8 g g16 g g g g8 g g e
+    e16 e e e e8 e e e f g16 g
+    e8 e d d c c f f
+    e4 e8 e e([ f e)] e
+    e4 a8 a a4 g! %135
+    g f f e8 e
+    e4( f8) e e4 gis
+    \tempoEtResurrexitB a4. a8 gis2\fermata
+    \tempoEtResurrexitC r8 gis16 a h8 a16 gis a8 a a([ gis)]
+    a4 r a8 a gis gis %140
+    a a r4 r2
+    r4 g!8 g fis fis fis4
+    gis? r r a8 a
+    f4 f r r8 a16 a
+    a8 a16 a a8([ gis)] a4 g8 a %145
+    d, g4 a8 d,4. d8
+    e g16 g gis8 a h4 e,
+    r16^\critnote e e e e8 f c4 c
+    r8 a'16 a g8 f e4 e8 e
+    f16 f e e e4 d r %150
+    e4. e8 f f f4
+    e8 e e4 f g8([ e)]
+    c!4 c d c8 c
+    c4 c d c
+    a'2 b~ %155
+    b2. a4
+    a2. g4
+    g2 f
+    f4 e f r
+    r g g8 g16 g e8 e %160
+    e4 e8 f e4 e8 f
+    e2 e4 r
+    r2 r4 a
+    a( gis) a a
+    a a h4. h8 %165
+    a2 a4( gis)
+    a a gis2
+    \once \tieDashed e1~
+    e2. e4
+    e2 e4 e %170
+    e r r2\fermata \bar "|." %171 finis
+  }
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+  Et re -- sur -- re -- xit, re -- sur -- %118
+  re -- xit,
+  et re -- sur -- re -- xit, re -- sur -- %120
+  re -- xit ter -- ti -- a di --
+  e se -- cun -- dum Scri --
+  ptu -- ras, se -- cun -- dum Scri --
+  ptu -- ras
+  et a -- scen -- dit in coe -- lum, se -- det, %125
+  se -- det ad dex -- te -- ram Pa --
+  tris, et a -- scen -- dit,
+  et a -- scen -- dit,
+  et a -- scen -- dit,
+  se -- det ad dex -- te -- ram Pa -- %130
+  tris. Et i -- te -- rum ven -- tu -- rus est, et
+  i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
+  iu -- di -- ca -- re, iu -- di -- ca -- re
+  vi -- vos et mor -- tu --
+  os, iu -- di -- ca -- re %135
+  vi -- vos, vi -- vos et
+  mor -- tu -- os, et
+  mor -- tu -- os,
+  cu -- ius re -- gni non e -- rit fi --
+  nis. Et vi -- vi -- fi -- %140
+  can -- tem,
+  et vi -- vi -- fi -- can --
+  tem, qui ex
+  Pa -- tre Fi -- li --
+  o -- que pro -- ce -- dit. Qui cum %145
+  Pa -- tre et Fi -- li --
+  o si -- mul ad -- o -- ra -- tur
+  et con -- glo -- ri -- fi -- ca -- tur,
+  si -- mul ad -- o -- ra -- tur et
+  con -- glo -- ri -- fi -- ca -- tur: %150
+  qui lo -- cu -- tus est
+  per Pro -- phe -- tas. Et __
+  u -- nam san -- ctam ca --
+  tho -- li -- cam et
+  a -- _ %155
+  po --
+  sto -- li --
+  cam Ec --
+  cle -- si -- am.
+  Con -- fi -- te -- or in re -- %160
+  mis -- si -- o -- nem pec -- ca --
+  to -- rum.
+  Et
+  vi -- tam ven --
+  tu -- ri sae -- cu -- %165
+  li, a --
+  men, a -- men,
+  a --
+  men,
+  a -- men, a -- %170
+  men. %171 finis
+}
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr a'2\fE^\tuttiE a
+    \tempoSanctusB r4 a2 gis4
+    a e f2
+    e4 c'2 h4~
+    h a2 gis4 %5
+    a r r2
+    r4 gis( a2)
+    gis4 a f2
+    e d
+    c4 a'8 a16 a fis4 g %10
+    fis4. fis8 e4 gis8 gis
+    a4 a8 a16 a f4 a8 a
+    gis gis a a16 a a4( gis)
+    \tempoSanctusC a8 a a a16 a gis8 gis h gis
+    a a r4 r2 %15
+    r r8 a a h
+    gis gis h([ gis)] a4 r
+    r8 e f16([ e f e] d8) h e16([ d)] e([ d)]
+    c8 c d16([ c)] d([ c)] h8 c h h
+    c2 c8 e f16([ e f e] %20
+    d8) h e16([ d)] e([ d)] c8 c d16([ c)] d([ c)]
+    h8 h c16([ h)] c([ d)] h8 h c c
+    h2 cis\fermata \bar "||" %23 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  \xE San -- ctus,
+  san -- _
+  _ _ _
+  ctus, san -- _
+  _ _ %5
+  ctus,
+  san --
+  ctus, san -- _
+  _ _
+  ctus \x Do -- mi -- nus De -- us %10
+  Sa -- ba -- oth. Ple -- ni
+  sunt, ple -- ni sunt coe -- li et
+  ter -- ra glo -- ri -- a, tu --
+  a. O -- san -- na, o -- san -- na in ex --
+  cel -- sis, %15
+  o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na in ex --
+  cel -- sis, in ex -- cel -- sis, in ex --
+  cel -- sis, o -- san -- %20
+  na in ex -- cel -- sis, in ex --
+  cel -- sis, in ex -- cel -- sis, in ex --
+  cel -- sis. %23 finis
+}

@@ -531,3 +531,95 @@ CredoViola = {
     a, r r\fermata \bar "||" %87 finis
   }
 }
+
+EtResurrexitViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #118
+    a'8\fE a, c e a a, c e %118
+    a4 r a r
+    a8 a, c e a a, c e %120
+    a a, g'! e a g16 fis h8 h,
+    e e gis e a a, c a
+    d d f d gis gis h gis
+    a d, e e, a4 r8 a'
+    d, d f d g g e c %125
+    c'4 c,8 c' f, d g g,
+    c c e c f f, a' g
+    fis e fis d g g, h' a
+    gis fis gis e a a, c' a
+    h a h g c c, f g %130
+    c, c' h16 a h g c8 c, g' a
+    gis16 fis gis e a8 a, e' c' d, h'
+    c, a' h, gis' a, a' d, d,
+    e' d c h a d e e,
+    a e'' c a d d, h' g %135
+    c c, a' f h h, gis' e
+    a c, d e a,4 e'
+    \tempoEtResurrexitB f2 e\fermata
+    \tempoEtResurrexitC r8 e16 fis gis8 fis16 e a8 c, d e
+    a a, c a d h e e, %140
+    a a c a d h e e,
+    a a' g! e a fis h h,
+    e e gis e a a c a
+    d, d f d e gis a d,
+    e d e e, a a' e f %145
+    g! g e f g f g g,
+    c c' h a gis4 gis,
+    r8 a' g f e4 e,
+    r8 f' e d cis4. cis'8
+    d, g a a, d d f d %150
+    g e a a, d d f d
+    g e a a, d d e c!
+    f f a f b g c c,
+    f f a f b g c c,
+    r a' f a r b b, b' %155
+    r g e g r a a, a'
+    r f d f r g g, g'
+    r e c e f e d b
+    c b c c, f' e d c
+    h g c4 g' gis %160
+    a8 a, c d e gis a d,
+    e d e e, a a c a
+    d h e e, a h c a
+    d h e e, a a c a
+    d d f d gis gis e gis %165
+    a a f d e d e e,
+    a h c d e2
+    r4 r8 e, e' e, e'4
+    r8 e e, e' e,4 e'~
+    e e e4. e8 %170
+    e4 r r2\fermata \bar "|." %171 finis
+  }
+}
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoSanctus
+    e8\fE e e e e e e e
+    \tempoSanctusB e4 a, h2
+    c8 d e2 d4
+    e2 d
+    c h %5
+    a4 e' d2
+    e4 r r2
+    r4 a,8 h a a d e16 f
+    g4 c, f e
+    e a^\critnote h2~ %10
+    h e,
+    a d,
+    e4 a e2
+    \tempoSanctusC a,8 a c d e4 gis8 e
+    a4 r8 e a,4 r8 e' %15
+    a c, d e a, a c d
+    e4 gis8 e a a, r a
+    a'16 g! a g f8 d g16 f g f e8 c
+    f16 e f e d8 d e a, e' e,
+    a4 r8 a a'16 g! a g f8 d %20
+    g16 f g f e8 c f16 e f e d8 d
+    e2 e~
+    e a,\fermata \bar "||" %23 finis
+  }
+}

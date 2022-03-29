@@ -29,6 +29,14 @@ tempoCumSancto = \tempoMarkup "Andante"
   tempoAmen = \tempoMarkup "Allegro assai"
 
 tempoCredo = \tempoMarkup "[Allegro]"
+tempoEtIncarnatus = \tempoMarkup "Adagio"
+tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoEtResurrexitB = \tempoMarkup "Adagio"
+  tempoEtResurrexitC = \tempoMarkup "Allegro"
+
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoSanctusB = \tempoMarkup "Vivace"
+  tempoSanctusC = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"
