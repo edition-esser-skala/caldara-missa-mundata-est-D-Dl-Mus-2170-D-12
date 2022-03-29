@@ -676,3 +676,94 @@ SanctusViolinoI = {
     a gis a2\fermata \bar "||" %23 finis
   }
 }
+
+BenedictusViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoBenedictus
+      \set Score.currentBarNumber = #24
+    \mvTr h'8\fE-\tuttiE e,4 g8 fis e16 dis
+    e'8 e,4 g8 fis e16 dis %25
+    e fis g a h8 e, h' e,
+    c'4-! h-! r8 g'~
+    g fis4 e8 dis e
+    h16 cis dis e fis8 h, r g'~
+    g fis4 e8 dis e %30
+    a,16( gis a) h-! a( gis a) h-! a( gis a) h-!
+    a4 r8 dis e4~
+    e8 cis dis4. e8
+    g,16( fis) e4 e'8 a,16( g) fis8~
+    fis dis' g,16( fis) e4 e'8 %35
+    a,16( g) fis4 e'8 fis,[ dis']
+    e4 r r
+    R2.
+    h8-\vvE e,4 g8 fis e16 dis
+    e4 r r %40
+    R2.
+    fis'8 h,4 d8 cis h16 ais
+    h4 r r
+    R2.
+    d16(\pE c d) e-! d( c d) e-! d e c d %45
+    h8 d g4 r
+    R2.
+    g,8 d' g4 r
+    R2.
+    g,8 d' g4 r %50
+    R2.*2
+    g,8 d' g4 r
+    R2.
+    r4 r \mvTr g~\fE-\tuttiE %55
+    g8 fis4 e8 dis e
+    h16 cis dis e fis8 h, r g'~
+    g fis4 e8 dis e
+    h4 r r
+    \mvTr e16(\pE-\soloE dis e) fis-! e( dis e) fis-! e( dis e) fis-! %60
+    e4 r r
+    d!16( c d) e-! d( c d) e-! d( c d) e-!
+    d4 r r
+    R2.*2 %65
+    fis16( e fis) g-! fis( e fis) g-! fis( e fis) g-!
+    fis4 r r
+    R2.*3 %70
+    \mvTr fis8\fE-\tuttiE h,4 d8 cis h16( ais)
+    h'8 h,4 d8 cis h16( ais)
+    h cis d e fis8 h, fis' h,
+    g'4-! fis-! r
+    R2. %75
+    h,8-\vvE e,4 g8 fis e16 dis
+    e4 r r
+    R2.
+    fis'8 h,4 d8 cis h16 ais
+    h4 r r %80
+    R2.
+    d16(\pE c d) e-! d( c d) e-! d e c d
+    h4 r r
+    R2.
+    r4 \mvTr e\fE-\tuttiE h %85
+    \slurDashed c16( h) a4 a'8 d,16( c) h8~
+    h gis' c,16( h) a4 a'8
+    d,16( c) h4 a'8 h,[ gis'] \slurSolid
+    a, e' a4 r
+    r \mvTr d,,8\p-\vvE a' d4 %90
+    r g,8 h g'4
+    r h,,8 fis' h4
+    r e,8 h' e4
+    r fis,8 h fis'4
+    r e,8 a e'4 %95
+    R2.*3
+    \mvTr h8\fE-\tuttiE e,4 g8 fis e16 dis
+    e'8 e,4 g8 fis e16 dis %100
+    e fis g a h8 e, h' e,
+    c'4-! h-! r8 g'~
+    g fis4 e8 dis e
+    h16 cis dis e fis8 h, r g'~
+    g fis4 e8 dis e %105
+    a,16( gis a) h-! a( gis a) h-! a( gis a) h-!
+    a4 r8 dis e4~
+    e8 cis dis4. e8
+    g,16( fis) e4 e'8 \once \slurDashed a,16( g) fis8~
+    fis dis' g,16( fis) e4 e'8 %110
+    \once \slurDashed a,16( g) fis4 e'8 fis,[ dis']
+    e4 r r\fermata \bar "||"
+  }
+}

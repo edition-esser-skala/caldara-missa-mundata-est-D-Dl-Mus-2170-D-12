@@ -989,3 +989,123 @@ SanctusAltoLyrics = \lyricmode {
   cel -- sis, in ex -- cel -- sis, in ex --
   cel -- sis. %23 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #24
+    R2.*16 %39
+    r4 \mvTr e\pE^\soloE h %40
+    g' fis4. e8
+    d8([ cis?)] h4 r
+    r g' g
+    a a4. g8
+    fis4 fis g8([ a)] %45
+    h[ a h c h c]
+    a[ g a h a h]
+    g[ fis g a] h8.[ a32 h]
+    c8[ h c d c d]
+    h[ a h c h c] %50
+    a[ g a h a h]
+    a4. g8 fis4
+    g8[ fis g a] h4
+    a8[ g] fis4. g8
+    g4 r r %55
+    R2.*3
+    r4 fis h
+    g gis4. gis8 %60
+    a4 a g
+    fis8 e fis4 fis
+    g g f
+    e2.~
+    e4. e8 d h' %65
+    ais8[ gis ais h cis ais]
+    h[ ais h cis d h]
+    cis[ d cis d cis h]
+    ais4. ais8 h4~
+    h8[ cis] ais4. h8 %70
+    h4 r r
+    R2.*5 %76
+    r4 e, h
+    g' fis4. e8
+    d8([ cis)] h4 r
+    r g' g %80
+    a a4. g8
+    fis4 fis g8([ a)]
+    h[ c h c h c]
+    a4. gis8 a4~
+    a8[ h] gis4. a8] %85
+    a4 r r
+    R2.*2
+    r4 r e
+    f fis4. fis8 %90
+    g a h4 g
+    fis4. e8[ dis fis]
+    g4. fis8 g[ a16 g]
+    fis4 h2~
+    h4 a8[ g a g] %95
+    fis4. fis8 fis4
+    fis e8[ dis] e4~
+    e8[ fis] dis4. e8
+    e4^\critnote r r
+    R2.*12 %111
+    R2.\fermata \bar "||" %112 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %40
+  di -- ctus, qui
+  ve -- nit,
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit in __ %45
+  no --
+  _
+  _ _
+  _
+  _ %50
+  _
+  _ mi -- ne
+  Do -- _
+  _ _ mi --
+  ni. %55
+
+  Be -- ne -- %59
+  di -- ctus, qui %60
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne
+  Do --
+  mi -- ni, in %65
+  no --
+  _
+  _
+  _ mi -- ne __
+  Do -- mi -- %70
+  ni.
+
+  Be -- ne -- %77
+  di -- ctus, qui
+  ve -- nit,
+  be -- ne -- %80
+  di -- ctus, qui
+  ve -- nit in __
+  no --
+  _ mi -- ne __
+  Do -- mi -- %85
+  ni,
+
+  qui %89
+  ve -- nit in %90
+  no -- mi -- ne, in
+  no -- _
+  _ _ _
+  _ _
+  _ %95
+  _ mi -- ne,
+  no -- mi -- ne __
+  Do -- mi --
+  ni. %99 finis
+}

@@ -905,7 +905,6 @@ SanctusSopranoLyrics = \lyricmode {
   cel -- sis. %23 finis
 }
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.
 %
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
@@ -914,3 +913,127 @@ SanctusSopranoLyrics = \lyricmode {
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Do -- na no -- bis pa -- cem.
+
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #24
+    R2.*13 %36
+    r4 \mvTr h'\pE^\soloE e,
+    c' h4. a8
+    g8.([ fis16)] e4 r
+    R2.*3 %42
+    r4 h' h
+    c c4. h8
+    a4 a h8([ c]) %45
+    d[ c d e d e]
+    c[ h c d c d]
+    h[ a h c d h]
+    e[ d e f e f]
+    d[ c d e d e] %50
+    c[ h c d c d]
+    c4. h8 a4
+    h8[ a h c] d8.[\trill c32 d]
+    e8[ c] a4. g8
+    g4 r r %55
+    R2.*4
+    r4 h e %60
+    c cis4. cis8
+    d4 d c
+    h8 a h4 h
+    c c h
+    ais4. ais8 h d %65
+    cis8[ h cis d e cis]
+    d[ cis d e fis d]
+    e[ fis e fis e fis]
+    e4. e8 d!4~
+    d8[ e] cis4. h8 %70
+    h4 r r
+    R2.*2
+    r4 h e,
+    c' h4. a8 %75
+    g([ fis)] e4 r
+    R2.*3
+    r4 h' h %80
+    c c4. h8
+    a4 a h8([ c)]
+    d[ e d e d e]
+    c4. h8 c4~
+    c8[ d] h4. a8 %85
+    a4 r r
+    R2.
+    r4 r h
+    c cis4. cis8
+    d cis d4 c %90
+    h e, e'~
+    e dis8[ e] fis4~
+    fis e8[ dis?] e4~
+    e d8[ c d h]
+    c2.~ %95
+    c4 h8[ a h a]
+    g4. fis8 g4~
+    g8[ a] fis4. e8
+    e4 r r
+    R2.*12 %111
+    R2.\fermata \bar "||" %112 finis
+  }
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- %37
+  di -- ctus, qui
+  ve -- nit,
+
+  be -- ne -- %43
+  di -- ctus, qui
+  ve -- nit in __ %45
+  no --
+  _
+  _
+  _
+  _ %50
+  _
+  _ mi -- ne
+  Do -- _
+  _ _ mi --
+  ni. %55
+
+  Be -- ne -- %60
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne
+  Do -- mi -- ni, in %65
+  no --
+  _
+  _
+  _ mi -- ne __
+  Do -- mi -- %70
+  ni.
+
+  Be -- ne -- %74
+  di -- ctus, qui %75
+  ve -- nit,
+
+  be -- ne -- %80
+  di -- ctus, qui
+  ve -- nit in __
+  no --
+  _ mi -- ne __
+  Do -- mi -- %85
+  ni,
+
+  qui
+  ve -- nit in
+  no -- mi -- ne, in %90
+  no -- _ _
+  _ _
+  _ _
+  _
+  _ %95
+  _
+  _ mi -- ne __
+  Do -- mi --
+  ni. %99 finis
+}

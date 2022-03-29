@@ -623,3 +623,68 @@ SanctusViola = {
     e a,\fermata \bar "||" %23 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/4 \tempoBenedictus
+      \set Score.currentBarNumber = #24
+    e8\fE g, h e, dis fis
+    g h e4 r8 fis %25
+    g4 r8 g g, g'16 fis
+    \parOn e4-\parenthesize-! \parOff fis-\parenthesize-! h
+    e,8 c' r h a g
+    fis8.[ e16 dis8. cis16] h8 h'
+    e, c' r h a g %30
+    fis16( e fis) g-! fis( e fis) g-! e8. e16
+    dis4 r8 fis h4
+    a8 g fis4. e8
+    e4 h c
+    r e h %35
+    c r8 c' h fis
+    g4 r r
+    R2.
+    e8 g, h e, dis fis
+    g4 r r %40
+    R2.
+    d'8 fis fis h, ais cis
+    d4 r r
+    R2.*11 %54
+    r4 r r8 h'\fE %55
+    e, c' r h a g
+    fis8.[ e16 dis8. cis16] h8 h'
+    e, c' r h a g
+    fis4 r r
+    R2.*11 %70
+    d8\fE fis fis h, ais cis
+    d fis h4 r8 cis,
+    d4 r8 d d, d'16 cis
+    h4-! d-! r
+    R2. %75
+    e8 g, h e, dis fis
+    g4 r r
+    R2.
+    d'8 fis fis h, ais cis
+    d4 r r %80
+    R2.*5 %85
+    a'4\fE e f
+    r a e
+    fis!4. fis8 gis h
+    a4 r r
+    R2.*9 %98
+    e8\fE g, h e, dis fis
+    g h e4 r8 fis %100
+    g4 r8 g g, g'16 fis
+    \parOn e4-\parenthesize-! \parOff fis-\parenthesize-! h
+    e,8 c' r h a g
+    fis8.[ e16 dis8. cis16] h8 h'
+    e, c' r h a g %105
+    fis16( e fis) g-! fis( e fis) g-! e8. e16
+    dis4 r8 fis h4
+    a8 g fis4. e8
+    e4 h c
+    r e h %110
+    c r8 c' h fis
+    g4 r r\fermata \bar "||" %112 finis
+  }
+}
