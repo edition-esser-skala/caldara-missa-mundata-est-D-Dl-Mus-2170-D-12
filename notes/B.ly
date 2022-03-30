@@ -943,3 +943,73 @@ SanctusBassoLyrics = \lyricmode {
   in ex -- cel --
   sis. %23 finis
 }
+
+OsannaBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 2/1 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #113
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*4 %116
+    \mvTr a'1\fE^\tuttiE a2 a
+    g4( e) g( a) h2 h
+    r4 h fis gis a e a2~
+    a gis a a4 a %120
+    g f g e f e f d
+    g2 c, g'1
+    c,1 r
+    R\breve*2 %125
+    g'1 g2 g
+    e4( c) e( f) g2 g
+    r4 g d e f1~
+    f2 e d1
+    c2 c'4 c h( a h gis %130
+    a2) a, r1
+    R\breve
+    r1 r2 a'4 a
+    h a h g a g a f
+    g f g e f e f d %135
+    e2 a e1
+    a,1 r
+    R\breve*2
+    r1 a' %140
+    a2 a g4( e) g( a)
+    h2 h r4 h fis gis
+    a e a1( gis2)
+    a d,4 d e2( a,
+    e'1) a2 cis,4 4 %145
+    \tempoOsannaB \set Staff.timeSignatureFraction = 4/4
+      d1 a\fermata \bar "|." %146 finis
+  }
+}
+
+OsannaBassoLyrics = \lyricmode {
+  O -- san -- na %117
+  in __ ex -- cel -- sis,
+  o -- san -- na in ex -- cel --
+  _ sis, in ex -- %120
+  cel -- _ _ _ _ _ _ _
+  _ _ _
+  sis,
+
+  o -- san -- na %126
+  in __ ex -- cel -- sis,
+  o -- san -- na in __
+  ex -- cel --
+  sis, in ex -- cel -- %130
+  sis,
+
+  in ex --
+  cel -- _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ %135
+  _ _ _
+  sis,
+
+  o -- %140
+  san -- na in __ ex --
+  \xE cel -- sis, o -- san -- na
+  in ex -- cel --
+  sis, in ex -- cel --
+  sis, in ex -- %145
+  cel -- sis. \x %146 finis
+}

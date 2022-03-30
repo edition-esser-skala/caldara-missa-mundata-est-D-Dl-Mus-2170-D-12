@@ -905,15 +905,6 @@ SanctusSopranoLyrics = \lyricmode {
   cel -- sis. %23 finis
 }
 
-% O -- san -- na in ex -- cel -- sis.
-%
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
-
 BenedictusSoprano = {
   \relative c' {
     \clef treble
@@ -1037,3 +1028,89 @@ BenedictusSopranoLyrics = \lyricmode {
   Do -- mi --
   ni. %99 finis
 }
+
+OsannaSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/1 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #113
+      \set Staff.timeSignatureFraction = 2/2
+    \mvTr e'1\fE^\tuttiE e2 e
+    c4( a) c( d) e2 e
+    r4 e h c d1~ %115
+    d2 c h1
+    a2 c4 c e( c e d8[ c]
+    h2) e, r1
+    r e'
+    e2 e c4( h) c( a) %120
+    h2 e a, d
+    g, c1 h2
+    c r r1
+    R\breve*2 %125
+    r1 c
+    c2 c h4( g) h( c)
+    d2 d r4 c a h
+    c a c1 h2~
+    h4 e, a1 gis4 e' %130
+    e1 r2 e~
+    e d1 c2~
+    c h a c4 c
+    d c d h c h c a
+    h a h gis a gis a h %135
+    gis2 a h e
+    e e c4( a) c( d)
+    e2 e r4 e h c
+    d1. c2
+    h1 a2 c4 c %140
+    e( c e d8[ c] h2) e,
+    R\breve
+    e'1 e2 e
+    c4( e) d( c) h2( c
+    h1) a2 e'4 e %145
+    \tempoOsannaB \set Staff.timeSignatureFraction = 4/4
+      e2 d~ d4 cis8[ h] cis2\fermata \bar "|." %146 finis
+  }
+}
+
+OsannaSopranoLyrics = \lyricmode {
+  O -- san -- na %113
+  in __ ex -- cel -- sis,
+  o -- san -- na in __ %115
+  ex -- cel --
+  sis, in ex -- cel --
+  sis,
+  o --
+  san -- na in __ ex -- %120
+  cel -- _ _ _
+  _ _ _
+  sis,
+
+  o -- %126
+  san -- na in __ ex --
+  cel -- sis, o -- san -- na
+  in ex -- cel -- _
+  _ _ _ _ %130
+  sis, in __
+  ex -- cel --
+  _ sis, in ex --
+  cel -- _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ %135
+  _ _ sis, o --
+  san -- na in __ ex --
+  cel -- sis, o -- san -- na
+  in ex --
+  cel -- sis, in ex -- %140
+  cel -- sis,
+
+  o -- san -- na
+  in ex -- cel --
+  sis, in ex -- %145
+  cel -- _ _ sis. %146 finis
+}
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.

@@ -1527,7 +1527,7 @@ BenedictusBassFigures = \figuremode {
   r
   <6\\>
   <7 5+ _+>2 <_!>4
-  <7 5>8 <8 6\\> <5+ _+>2 %70
+  \bo <[7 5]>8 \bc <[8 6\\]> <[5+] _+>2 %70
   r4 <6> <5+ _+>
   <6> <5> <6\\>8 <5+ _+>
   <6>2.
@@ -1542,8 +1542,8 @@ BenedictusBassFigures = \figuremode {
   r4. <\t>8 <6> q
   r4 <6 5> <7 _+>
   r <6 4>8 <5 _+>4.
-  <7 5 _!>8 <8 6 \t> <_+>2 %85
-  r2 <6>4
+  \bo <[7 5] _!>8 <8 6 \t> \bc <[_+ \l]>2 %85
+  r2 <[6] _!>4
   <_+> <5> <6 _!>
   <5+> <6> <_+>
   <_!> <_+>2
@@ -1570,4 +1570,104 @@ BenedictusBassFigures = \figuremode {
   <_+> <5> <6> %110
   q <\t> <_+>
   r2. %112 finis
+}
+
+OsannaOrgano = {
+  \relative c {
+    \clef treble
+    \key a \minor \time 2/1 \tempoOsanna
+      \set Score.currentBarNumber = #113
+      \set Staff.timeSignatureFraction = 2/2
+    << {
+      e''1 e2 e^\critnote
+      c4 a c d e2 e
+      r4 e h c d1~ %115
+      d2 c
+    } \\ {
+      \mvTr r1\fE-\tuttiE a
+      a2 a g4 e g a
+      h2 h r4 h fis gis %115
+      a e a2
+    } >> \clef "treble_8" e1
+    \clef bass a, a2 a
+    g4 e g a h2 h
+    r4 h fis gis a e a2~
+    a gis a2. a4 %120
+    g f g e f e f d
+    g2 c, g'1
+    c,2 \clef "treble_8" << {
+      g'' e4 c e f
+      g2 g r4 g d e
+      f1.^\critnote e2 %125
+    } \\ {
+      c c c
+      h4 g h c d2 d
+      r4 d a h c g c2 %125
+    } >>
+    \clef bass g1 g2 g
+    e4 c e f g2 g
+    r4 g d e f1~
+    f2 e d1
+    c4 h c a h a h gis %130
+    a2 a' e \clef "treble_8" e'
+    f4 e f d e d e c
+    d c d h c2 \clef bass a
+    h4 a h g a g a f
+    g f g e f e f d %135
+    e2 a, e'1
+    a,2 \clef treble << {
+      e''' c4 a c d
+      e2 e r4 e h c
+      \once \tieDashed d1~ d2 c
+    } \\ {
+      a2 a a
+      g4 e g a h2 h
+      r4 h fis gis a e a2
+    } >>
+    \clef "treble_8" e1 \clef bass a, %140
+    a2 a g4 e g a
+    h2 h r4 h fis gis
+    a e a1 gis2
+    a d, e a,
+    e'1 a2 cis, %145
+    \tempoOsannaB \set Staff.timeSignatureFraction = 4/4
+      d1 a\fermata \bar "|." %146 finis
+  }
+}
+
+OsannaBassFigures = \figuremode {
+  r\breve %113
+  r
+  r %115
+  r1 <4>2 <_+>
+  r\breve
+  <6>1 <5+ 4>2 <\t 3>
+  r4 <6\\> <6> q <4> <\t> <3>2
+  <5 2> <\t \t> <5> <6> %120
+  <7> <6> <7> <6>
+  r1 <4>2 <3>
+  r\breve
+  r
+  r %125
+  <4>2 <3> <6 4>1
+  <6>\breve
+  r4 <_-> <6-> <6> r1
+  r2 <6> <7> <6!>
+  <7> <6> <7> <6\\> %130
+  r1 <4>2 <_+>
+  <7> <6> <7> <6>
+  <7> <6> q1
+  <7>2 <6> <7> <6>
+  <7> <6> <7> <6> %135
+  <7 _+>1 <4>2 <_+>
+  r\breve
+  r
+  r
+  <4>2 <_+>1. %140
+  r1 <6>
+  <5+ 4>2 <\t 3> r4 <6\\> <6> q
+  <4> <\t> <3>2 <5 2> <\t \t>
+  r1 <_+>
+  <4>2 <_+>1 <6 5!>2 %145
+  <9> <8> <6 4>4 <5 _+>8 <4 2> <5 _+>4 %146 finis
 }

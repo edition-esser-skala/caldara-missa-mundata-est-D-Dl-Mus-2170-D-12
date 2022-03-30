@@ -666,3 +666,47 @@ SanctusViolinoII = {
     h4. h8 cis2\fermata \bar "||" %23 finis
   }
 }
+
+OsannaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/1 \tempoOsanna
+      \set Score.currentBarNumber = #113
+      \set Staff.timeSignatureFraction = 2/2
+    r1 a'\fE
+    a2 a g4 e g a
+    h2 h r4 h fis gis %115
+    a e a1 gis2
+    a2. g8 f e4 a e fis
+    g1 fis~
+    fis4 gis a h e,2. fis8 gis
+    a2 h e, a4 a %120
+    h a h g! a g a f
+    g1 r2 g
+    g g e4 c e f
+    g2 g r4 g d e
+    f1. e2 %125
+    d1 c2 e4 e
+    g e g f8 e d2 r
+    r1 r4 a' f g
+    a a g g f e f d
+    e d e c d c d h %130
+    c a a'1 gis2
+    a4 g a f g f g e
+    f e f d e2 a~
+    a g1 f2~
+    f e1 d2~ %135
+    d c h1
+    a2 a' a a
+    g4 e g a h2 h
+    r4 h fis gis a e a2~
+    a gis a2. g8 f %140
+    e4 a e fis g1
+    fis~ fis4 gis? a h
+    e,2. fis8 gis a2 h
+    e, f4 a gis2 a~
+    a gis a a4 a %145
+    \tempoOsannaB \set Staff.timeSignatureFraction = 4/4
+      a1 a\fermata \bar "|." %146 finis
+  }
+}

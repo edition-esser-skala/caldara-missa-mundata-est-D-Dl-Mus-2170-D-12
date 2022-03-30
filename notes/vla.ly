@@ -688,3 +688,44 @@ BenedictusViola = {
     g4 r r\fermata \bar "||" %112 finis
   }
 }
+
+OsannaViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 2/1 \tempoOsanna
+      \set Score.currentBarNumber = #113
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*3 %115
+    r1 e\fE
+    e2 e c4 a c d
+    e2 e r4 e h c
+    d1. c2
+    h1 a2 f'~ %120
+    f e1 d2~
+    d e d1
+    c2 c c c
+    h4 g h c d2 d
+    r4 d a h c g c2~ %125
+    c h c r
+    r1 r4 h g a
+    h b f g a f c'2
+    a e' f h,
+    e a, d gis,4 h %130
+    a h c d e2 e4 e
+    f e f d e d e c
+    d c d h c2 e
+    d g c, f
+    h, e a, d %135
+    h \once \tieDashed a~ a gis
+    a1 r
+    R\breve*2
+    e'1 e2 e %140
+    c4 a c d e2 e
+    r4 e h c d1~
+    d2 c h1
+    a2 a4 a e'1~
+    e e2 e4 g! %145
+    \tempoOsannaB \set Staff.timeSignatureFraction = 4/4
+      f8 e d e f2~ f4 e8 d e2\fermata \bar "|." %146 finis
+  }
+}
