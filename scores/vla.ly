@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Viola"
+          \KyrieViola
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaViola }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudamusOrgano }
+        \new Staff { \LaudamusViola }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GratiasOrgano }
+        \new Staff { \GratiasViola }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisViola }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamViola }
       >>
     }
   }
@@ -69,7 +69,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \CumSanctoOrgano }
+        \new Staff { \CumSanctoViola }
       >>
     }
   }
@@ -78,16 +78,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Et incarnatus est"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \EtIncarnatusOrgano }
+        \new Staff { \CredoViola }
       >>
     }
   }
@@ -96,7 +87,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitViola }
       >>
     }
   }
@@ -106,7 +97,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusViola }
       >>
     }
   }
@@ -115,7 +106,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusViola }
       >>
     }
   }
@@ -124,17 +115,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \OsannaOrgano }
+        \new Staff { \OsannaViola }
       >>
     }
   }
   \bookpart {
     \section "5" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViola }
       >>
     }
   }
@@ -143,7 +134,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DonaOrgano }
+        \new Staff { \DonaViola }
       >>
     }
   }
