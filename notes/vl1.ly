@@ -406,7 +406,7 @@ CumSanctoViolinoI = {
     \clef treble
     \key a \minor \time 3/2 \tempoCumSancto
       \set Score.currentBarNumber = #282
-    \mvTr g''2\fE-\tuttiE e c
+    g''2\fE e c
     g'4 e c g e'8( f g4)
     a2 e-! e-!
     e4 c a e c'8( d e4) %285
@@ -459,7 +459,7 @@ CredoViolinoI = {
   \relative c' {
     \clef treble
     \key a \minor \time 3/2 \tempoCredo
-    \mvTr a''4\fE-\tuttiE a,2 c e4
+    a''4\fE a,2 c e4
     a8 gis a h a e e c d f e d
     c4 e2 a e4
     h'8 a h c h gis gis d h e e h
@@ -499,13 +499,13 @@ CredoViolinoI = {
     e8 dis e fis e4 d2 h'4
     gis h2 e, a4~
     a c, h a' h, gis' %40
-    a \mvTrr a\pp-\soloE a a a a
+    a a\pp a a a a
     a a a a a a
     h h h h h h
     h h h h h h
     h h a a a a %45
     a a a a a a
-    \mvTr a8\fE-\tuttiE f f a a f f a a f f a
+    a8\fE f f a a f f a a f f a
     h d, d h' h d, d h' h d, d h'
     c4 e,2 c' h4
     c c,2 e g4 %50
@@ -593,7 +593,7 @@ EtResurrexitViolinoI = {
     \key a \minor \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #118
     R1
-    \mvTr a'8\fE-\tuttiE a'4 gis8 a16 e d e c d h c
+    a'8\fE a'4 gis8 a16 e d e c d h c
     a8 a, r4 r2 %120
     a'8 a'4 h8 c16 h a g! fis8 h
     gis e r4 r16 c' h c a h g? a
@@ -653,14 +653,14 @@ SanctusViolinoI = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoSanctus
-    \mvTr a''8\fE-\tuttiE e, e e a' c,, c c
+    a''8\fE e, e e a' c,, c c
     \tempoSanctusB c4 r r2
     R1*3 %5
-    a'2-\vvE h
+    a'2 h
     c8 d e2 d4
     e e d2
     c h
-    a4^\critnote a'8-\tuttiE a16 a a8 fis g e %10
+    a4^\critnote a'8 a16 a a8 fis g e %10
     fis4. fis8 e e, r4
     a8 c cis8.(\trill h32 cis) d8 d, f'4
     gis8 e a2 gis4
@@ -682,7 +682,7 @@ BenedictusViolinoIeII = {
     \clef treble
     \key e \minor \time 3/4 \tempoBenedictus
       \set Score.currentBarNumber = #24
-    \mvTr h'8\fE-\tuttiE e,4 g8 fis e16 dis
+    h'8\fE e,4 g8 fis e16 dis
     e'8 e,4 g8 fis e16 dis %25
     e fis g a h8 e, h' e,
     c'4-! h-! r8 g'~
@@ -697,7 +697,7 @@ BenedictusViolinoIeII = {
     a,16( g) fis4 e'8 fis,[ dis']
     e4 r r
     R2.
-    h8-\vvE e,4 g8 fis e16 dis
+    h8 e,4 g8 fis e16 dis
     e4 r r %40
     R2.
     fis'8 h,4 d8 cis h16 ais
@@ -712,12 +712,12 @@ BenedictusViolinoIeII = {
     R2.*2
     g,8 d' g4 r
     R2.
-    r4 r \mvTr g~\fE-\tuttiE %55
+    r4 r g~\fE %55
     g8 fis4 e8 dis e
     h16 cis dis e fis8 h, r g'~
     g fis4 e8 dis e
     h4 r r
-    \mvTr e16(\pE-\soloE dis e) fis-! e( dis e) fis-! e( dis e) fis-! %60
+    e16(\pE dis e) fis-! e( dis e) fis-! e( dis e) fis-! %60
     e4 r r
     d!16( c d) e-! d( c d) e-! d( c d) e-!
     d4 r r
@@ -725,12 +725,12 @@ BenedictusViolinoIeII = {
     fis16( e fis) g-! fis( e fis) g-! fis( e fis) g-!
     fis4 r r
     R2.*3 %70
-    \mvTr fis8\fE-\tuttiE h,4 d8 cis h16( ais)
+    fis8\fE h,4 d8 cis h16( ais)
     h'8 h,4 d8 cis h16( ais)
     h cis d e fis8 h, fis' h,
     g'4-! fis-! r
     R2. %75
-    h,8-\vvE e,4 g8 fis e16 dis
+    h,8 e,4 g8 fis e16 dis
     e4 r r
     R2.
     fis'8 h,4 d8 cis h16 ais
@@ -739,19 +739,19 @@ BenedictusViolinoIeII = {
     d16(\pE c d) e-! d( c d) e-! d e c d
     h4 r r
     R2.
-    r4 \mvTr e\fE-\tuttiE h %85
+    r4 e\fE h %85
     \slurDashed c16( h) a4 a'8 d,16( c) h8~
     h gis' c,16( h) a4 a'8
     d,16( c) h4 a'8 h,[ gis'] \slurSolid
     a, e' a4 r
-    r \mvTr d,,8\p-\vvE a' d4 %90
+    r d,,8\p a' d4 %90
     r g,8 h g'4
     r h,,8 fis' h4
     r e,8 h' e4
     r fis,8 h fis'4
     r e,8 a e'4 %95
     R2.*3
-    \mvTr h8\fE-\tuttiE e,4 g8 fis e16 dis
+    h8\fE e,4 g8 fis e16 dis
     e'8 e,4 g8 fis e16 dis %100
     e fis g a h8 e, h' e,
     c'4-! h-! r8 g'~

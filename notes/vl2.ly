@@ -396,7 +396,7 @@ CumSanctoViolinoII = {
     \clef treble
     \key a \minor \time 3/2 \tempoCumSancto
       \set Score.currentBarNumber = #282
-    \mvTr c'2\fE-\tuttiE e g4. f8
+    c'2\fE e g4. f8
     e4 c g e c'8( d e4)
     e4 d c h a2
     c4 a e c a'8( h c4) %285
@@ -450,7 +450,7 @@ CredoViolinoII = {
     \clef treble
     \key a \minor \time 3/2 \tempoCredo
     R1.
-    \mvTr a''4\fE-\tuttiE a,2 c e4
+    a''4\fE a,2 c e4
     a8 gis a h a e e c c e e c
     h4^\critnote e2 gis h4
     h8 a h c h gis gis e h e e h %5
@@ -489,13 +489,13 @@ CredoViolinoII = {
     g4 c2 h4 fis'2
     d!8 c d e d2 c~
     c h1\trill %40
-    c4 \mvTrr e\pp-\soloE c e c e
+    c4 e\pp c e c e
     f d f d f d
     f d f d f d
     e gis e gis e gis
     e c e c e c %45
     e cis e cis e cis
-    \mvTr f\fE-\tuttiE d f d f d
+    f\fE d f d f d
     f d f d f d
     e g d d2 f4
     e2 r r %50
@@ -580,7 +580,7 @@ EtResurrexitViolinoII = {
     \clef treble
     \key a \minor \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #118
-    r2 \mvTr a'8\fE-\tuttiE a'4 gis8
+    r2 a'8\fE a'4 gis8
     a16 e d e c d h c a c h c a h gis a-\critnote
     a8 a, r4 a'8 a'4 gis8 %120
     a c, e2 dis4
@@ -641,8 +641,8 @@ SanctusViolinoII = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoSanctus
-    \mvTr e'8\fE-\tuttiE c, c c e' a,, a a
-    \tempoSanctusB a4 a'2-\vvE gis4
+    e'8\fE c, c c e' a,, a a
+    \tempoSanctusB a4 a'2 gis4
     a e f2
     e4 c'2 h4~
     h a2 gis4 %5
@@ -650,7 +650,7 @@ SanctusViolinoII = {
     r4 gis' a2
     gis4 a f2
     e d
-    c4^\critnote c8-\tuttiE c16 c h8 cis16 dis e4~ %10
+    c4^\critnote c8 c16 c h8 cis16 dis e4~ %10
     e dis8. dis16 e8 g gis8.( fis32 gis)
     a8 a, r4 r8 a d4~
     d c h2

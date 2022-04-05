@@ -112,7 +112,7 @@ GloriaViola = {
     h a h gis a c r c,
     d h e e, a e' r c'
     a4 r8 f d d' d,4 %10
-    r8 d' e,4 a8 gis c h
+    r8 d' f,4^\critnote a8 gis c h
     e^\critnote d c h a d, e e,
     a' g! f f g a g g
     g4 r r2
