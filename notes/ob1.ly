@@ -615,3 +615,93 @@ OsannaOboeI = {
       e2 d~ d4 cis8 h cis2\fermata \bar "|." %146 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoAgnus
+    a''8\fE e a, a' h h h8.(\trillE a32 h)
+    c8 c, c' h a c h a
+    gis fis16 e a2 gis4
+    a r r2
+    R1*3 %7
+    r2 h
+    a g~
+    g8 e g a h2 %10
+    g f
+    e4 r d'2
+    c h
+    a4 a8 a a2
+    gis4. gis8 gis a h gis %15
+    a c,16 d e4. d16 c d4
+    e2 r\fermata \bar "||" %17 finis
+  }
+}
+
+DonaOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/1 \autoBeamOff \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    R\breve*2
+    r1 r2 e'~\fE %20
+    e dis g1
+    fis2 e1 dis2
+    d4 h c2 h1
+    a4 h c2 d e~
+    e4 d c a d2 c %25
+    d4 f e d c2 h
+    a1 e'
+    dis2 h c h~
+    h a1 gis2
+    a e' f1~ %30
+    f4 e d2. h4 e2~
+    e4 d c2. a4 d2~
+    d4 c h2. g4 c2~
+    c4 h a2. f4 h2
+    gis a1 gis2 %35
+    a1 r
+    R\breve*18 %54
+    r2 h1 ais2 %55
+    d1 cis2 h~
+    h ais a4 h g2
+    fis1 e2 r
+    r e' fis2. e4
+    dis2. h4 e2. d?4 %60
+    c2. a4 d2. c4
+    h2. g4 c2. h4
+    a2. fis4 h1
+    a g2 h
+    h1 c %65
+    e1. d2
+    d1. d2
+    d1. c2
+    c b a d~
+    d c h e~ %70
+    e d c d4 c
+    h1 a
+    R\breve*3 %75
+    r2 e'1 dis2
+    g1 fis2 e~
+    e dis d4 e c2~
+    c h1 a2~
+    a gis a e' %80
+    f1~ f4 e d2~
+    d4 h e2. d4 c2~
+    c4 a d2. c4 h2~
+    h4 g c2. h4 a2~
+    a4 f h a gis2 c %85
+    h1 a2 a~
+    a gis c1
+    h e
+    d c
+    h a2 e' \noBreak %90
+    d h c1 \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      r4 d8 d d2~
+    d4 c h2
+    a1\fermata \bar "|." %94 FINIS
+  }
+}

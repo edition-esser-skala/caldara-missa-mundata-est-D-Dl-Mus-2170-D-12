@@ -1013,3 +1013,172 @@ OsannaBassoLyrics = \lyricmode {
   sis, in ex -- %145
   cel -- sis. \x %146 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    r4^\critnote \mvTr a'2\fE^\tuttiE gis4
+    a a8 g f4 f8 f
+    e4 e e2
+    a,4 r r e'8 e
+    f4 f, r fis'8 fis %5
+    g4 g, r gis'8 gis
+    a4 d, e2
+    a,4 r e' e
+    f2 g4. f8
+    e([ c)] e f g4( f %10
+    e) e d2
+    c4 c'8 c g4 gis
+    a8 a a a e2
+    a,4 a'8 fis dis2
+    e4 e e8([ fis)] gis e %15
+    a4 e f2
+    e r\fermata \bar "||" %17 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %5
+  re -- re, mi -- se --
+  re -- re no --
+  bis. A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- %10
+  ta mun --
+  di: Mi -- se -- re -- re,
+  mi -- se -- re -- re no --
+  bis. A -- gnus De --
+  i, qui tol -- lis pec -- %15
+  ca -- ta mun --
+  di: %17 finis
+}
+
+DonaBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 2/1 \autoBeamOff \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    R\breve*6 %23
+    r2 \mvTr a'1\fE^\tuttiE gis2
+    c1 h2 a~ %25
+    a gis a g
+    fis1 e4 fis g a
+    h2 g a h
+    gis4( e a2 e1)
+    a, r2 a'( %30
+    h2.) a4 gis2. e4
+    a2. g4 f2. d4
+    g2. f4 e2. c4
+    f2. e4 d2. h4
+    e2 a e1 %35
+    a, r
+    R\breve*17 %53
+    r2 e'1 dis2
+    g1 fis~ %55
+    fis2 e1 d!2
+    cis fis dis4 h e2~
+    e dis e h'
+    c4 c, c'2. h4 a2~
+    a4 fis h2. a4 g2~ %60
+    g4 e a2. g4 fis2~
+    fis4 d g2. fis4 e2~
+    e4 c fis2 dis e~
+    e dis e e'
+    d1 c %65
+    cis d
+    c h~
+    h c2 c,
+    d e f d
+    e fis g e %70
+    fis gis a d,
+    e1 a,2 r
+    r1 r2 a'2~
+    a gis c1
+    h2 a1 gis2 %75
+    a g fis1
+    e4 fis g a h2 g(
+    a) h gis4 e a2
+    f4 d g2 e4 c f2
+    d e a, r %80
+    r a'( h2.) a4
+    gis2. e4 a2. g?4
+    f2. d4 g2. f4
+    e2. c4 f2. e4
+    d1 e2 a, %85
+    e'1 e
+    e\breve
+    e
+    e
+    e1 a,2 c \noBreak %90
+    d( e) a,1 \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      r4 d8 d d4 d \noBreak
+    e1
+    a,\fermata \bar "|." %94 FINIS
+  }
+}
+
+DonaBassoLyrics = \lyricmode {
+  Do -- na %24
+  no -- bis pa -- %25
+  _ _ _
+  _ _ _ _ _
+  _ cem, do -- na
+  pa --
+  cem, do -- %30
+  na no -- bis,
+  do -- na pa -- _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ %35
+  cem.
+
+  Do -- na %54
+  no -- bis, __ %55
+  do -- na
+  pa -- _ _ _ _
+  _ cem, do --
+  _ _ _ na no --
+  bis, do -- na pa -- %60
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ cem, do --
+  na no -- %65
+  bis, do --
+  na pa --
+  _ _
+  _ _ _ _
+  _ _ _ _ %70
+  _ _ _ cem,
+  pa -- cem,
+  do --
+  na no --
+  bis pa -- _ %75
+  _ _ _
+  _ _ _ _ cem, do --
+  na pa -- _ _
+  _ _ _ _ _ _
+  _ _ cem, %80
+  do -- na
+  no -- bis pa -- _
+  _ _ _ _
+  _ _ _ _
+  _ _ cem, %85
+  do -- na
+  no --
+  bis,
+  do --
+  na no -- bis %90
+  pa -- cem,
+  do -- na no -- bis
+  pa --
+  cem. %94 FINIS
+}

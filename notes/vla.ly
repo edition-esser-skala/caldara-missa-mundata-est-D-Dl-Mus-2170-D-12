@@ -94,7 +94,7 @@ KyrieViola = {
       \unset Staff.timeSignatureFraction
       f8 f f f f f f f \noBreak %85
     h,! h c d e e e e
-    e1\fermata \bar "|."
+    e1\fermata \bar "|." %87 finis
   }
 }
 
@@ -727,5 +727,116 @@ OsannaViola = {
     e e2 e4 g! %145
     \tempoOsannaB \set Staff.timeSignatureFraction = 4/4
       f8 e d e f2~ f4 e8 d e2\fermata \bar "|." %146 finis
+  }
+}
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoAgnus
+    c4\fE e f e
+    e8 a, a h c4 f
+    h,8 h c d e e e e
+    e4 r r2
+    R1*3 %7
+    r4^\critnote a e2
+    f g4. f8
+    e c e f g4 f %10
+    e2 d
+    c4 c' g gis
+    a2 e
+    a,4 a'8 fis dis2
+    e e8 fis gis e %15
+    a4 e f2
+    e r\fermata \bar "||" %17 finis
+  }
+}
+
+DonaViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 2/1 \tempoDona
+    \time 2/1 \tempoKyrieC
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    r2 a'1\fE gis2
+    c1 h2 a~
+    a gis a g %20
+    fis1 h2 \once \tieDashed a~
+    a^\critnote g fis1
+    gis2 a1 gis2
+    a1 h~
+    h2 a gis a %25
+    h1 a2 e~
+    e dis g1
+    fis2 e1 dis2
+    d?4 e e2 e2. e4
+    e1 r2 a %30
+    h2. a4 gis2. e4
+    a2. g4 f2. d4
+    g2. f4 e2. c4
+    f2. e4 d2. h4
+    e2 a e1 %35
+    a, r2 r4 h'
+    c a e e' d d, r2
+    r1 r2 r4 e
+    h' c h a g g, r e'
+    dis h e g h h, r h %40
+    e gis, a c e e, r e'
+    c a e'2 d2. c8 h
+    a4 h c h8 c d2 e
+    f h, e f4 g!
+    a1 g2. d4 %45
+    e2 g f2. c4
+    d2 fis e1~
+    e4 a, e'2 dis h
+    h2. h4 h2 r
+    r1 r2 h~ %50
+    h ais d1
+    cis2 h1 ais2
+    a g fis1
+    g a2 h
+    h g' cis,1 %55
+    h ais2 h
+    cis1 h
+    a g2 h'
+    c4 c, c'2. h4 a2~
+    a4 fis h2. a4 g2~ %60
+    g4 e a2. g4 fis2~
+    fis4 d g2. fis4 e2~
+    e4 c fis2 dis e~
+    e dis e e'
+    d d, \tuplet 3/2 2 { c'4( d c) } c,2 %65
+    cis' cis, \tuplet 3/2 2 { d'4( e d) } d,2
+    c' c, \tuplet 3/2 2 { h'4( c h) } h,2
+    h' h, \tuplet 3/2 2 { c4( d c) } c'2
+    d, e \tuplet 3/2 2 { f4( g f) } d2
+    e fis \tuplet 3/2 2 { g4( a g) } e2 %70
+    fis gis \tuplet 3/2 2 { a4( h a) } d,2
+    e e, a1
+    h a4 h c a
+    d2 e a, a'
+    gis a h1 %75
+    a2 h cis a
+    h e, h2. g'4
+    fis2. fis4 e1
+    a2 g!1 f2
+    h, e c a'~ %80
+    a4 g f e d e f2
+    e e, \tuplet 3/2 2 { e'4( f e) } a,2
+    f' f, \tuplet 3/2 2 { d'4( e d) } d,2
+    g' g, \tuplet 3/2 2 { a'4( gis a) a( gis a) }
+    \tuplet 3/2 2 { a( gis a) f( g f) } e2 c %85
+    h e e1
+    r r2 a~
+    a gis1 c2~
+    c h1 a2~
+    a gis4 h c2 a~ \noBreak %90
+    a gis4 h a1 \bar "|"
+    \time 4/4 \tempoKyrieD
+      \unset Staff.timeSignatureFraction
+      f8 f f f f f f f \noBreak
+    h,! h c d e e e e
+    e1\fermata \bar "|." %94 FINIS
   }
 }

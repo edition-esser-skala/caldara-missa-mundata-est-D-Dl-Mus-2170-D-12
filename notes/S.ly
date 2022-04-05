@@ -1108,9 +1108,173 @@ OsannaSopranoLyrics = \lyricmode {
   cel -- _ _ sis. %146 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr a'8\fE^\tuttiE a h([ c)] d h
+    c4 a8 e' e4 d8 d
+    d4 c h2
+    c4 c8 c c2
+    c4 c8 c d2 %5
+    d4 d8 d \once \tieDashed e2~
+    e8[ d] c4 h2
+    c4 a8 a a4 g!8 e'
+    e4 d8 c c4( h)
+    c r r8 g a h %10
+    c2.( h4)
+    c e8 e d d d d
+    c4 c h2
+    c4 r c c
+    h h8 e e4 e8 e %15
+    c([ d)] e4 e( d)
+    e2 r\fermata \bar "||" %17 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun --
+  di: Mi -- se -- re --
+  re, mi -- se -- re -- %5
+  re, mi -- se -- re --
+  re no --
+  bis. A -- gnus De -- i, qui
+  tol -- lis pec -- ca --
+  ta, pec -- ca -- ta %10
+  mun --
+  di: Mi -- se -- re -- re, mi -- se --
+  re -- re no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec -- %15
+  ca -- ta mun --
+  di: %17 finis
+}
+
+DonaSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/1 \autoBeamOff \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    R\breve*2
+    r1 r2 \mvTr e'~\fE^\tuttiE %20
+    e dis g1
+    fis2 e1 dis2
+    d4 h c2 h1
+    a4 h c2 d e~
+    e4 d c a d2 c %25
+    d4 f e d c2 h
+    a1 e'
+    dis2 h c h~
+    h a1 gis2
+    a e' f1~ %30
+    f4 e d2. h4 e2~
+    e4 d c2. a4 d2~
+    d4 c h2. g4 c2~
+    c4 h a2. f4 h2
+    gis a1 gis2 %35
+    a1 r
+    R\breve*18 %54
+    r2 h1 ais2 %55
+    d1 cis2 h~
+    h ais a4 h g2
+    fis1 e2 r
+    r e'( fis2.) e4
+    dis2. h4 e2. d?4 %60
+    c2. a4 d2. c4
+    h2. g4 c2. h4
+    a2. fis4 h1
+    a g2 h
+    h1 c %65
+    e1. d2
+    d1. d2
+    d1. c2
+    c b a d~
+    d c h e~ %70
+    e d c d4 c
+    h1 a
+    R\breve*3 %75
+    r2 e'1 dis2
+    g1 fis2 e~
+    e dis d4 e c2~
+    c h1 a2~
+    a gis a e' %80
+    f1~ f4 e d2~
+    d4 h e2. d4 c2~
+    c4 a d2. c4 h2~
+    h4 g c2. h4 a2~
+    a4 f h a gis2 c %85
+    h1 a2 a~
+    a gis c1
+    h e
+    d c
+    h a2 e'( \noBreak %90
+    d h) c1 \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      r4 d8 d d2~
+    d4 c h2
+    a1\fermata \bar "|." %94 FINIS
+  }
+}
+
+DonaSopranoLyrics = \lyricmode {
+  \xE Do -- %20
+  na no --
+  bis pa -- _
+  _ _ _ _
+  _ _ _ cem, do --
+  na no -- bis pa -- _ %25
+  _ _ _ _ _ _
+  cem, pa --
+  _ _ _ _
+  _ _
+  cem, pa -- _ %30
+  _ _ cem, \x do --
+  na pa -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ %35
+  cem.
+
+  Do -- na %55
+  no -- bis pa --
+  _ _ _ _
+  _ cem,
+  do -- na
+  no -- bis, do -- na %60
+  pa -- _ _ _
+  _ _ _ _
+  _ _ _
+  _ _ cem,
+  pa -- cem, %65
+  do -- na
+  no -- bis,
+  do -- na
+  no -- bis pa -- _
+  _ _ _ %70
+  _ _ _ _
+  _ cem,
+
+  do -- na %76
+  no -- bis pa --
+  _ _ _ _
+  _ _
+  _ cem, do -- %80
+  _ na no --
+  bis, do -- na pa --
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _ _ %85
+  _ cem, do --
+  na no --
+  bis pa --
+  _ _
+  _ cem, pa -- %90
+  cem,
+  do -- na no --
+  bis pa --
+  cem. %94 FINIS
+}

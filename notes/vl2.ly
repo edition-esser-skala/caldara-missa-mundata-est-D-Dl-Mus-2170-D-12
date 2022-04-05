@@ -710,3 +710,113 @@ OsannaViolinoII = {
       a1 a\fermata \bar "|." %146 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoAgnus
+    e'2\fE d
+    c8 d c e e4 d~
+    d c8 h16 a h2
+    c4 r r2
+    R1*3 %7
+    \once \tieDashed a'2~ a4 g8 f
+    e4 d8 c h2
+    c4 r r8 g a h %10
+    c2~ c8 h16 a h4
+    c c'2 h4~
+    h8 e, a2 gis4
+    a c,8 c c2
+    h4 h e4. d8 %15
+    c4 gis' a2
+    gis r\fermata \bar "||" %17 finis
+  }
+}
+
+DonaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    R\breve
+    r1 r2 r4 c'\fE
+    h e, e' h c a r2 %20
+    r1 r2 r4 a
+    h h, e' g, a a, r2
+    r1 r2 r4 h'
+    c a a' g f4 d, r2
+    r1 r2 r4 c' %25
+    h e, e' d c a r2
+    r1 r2 r4 e'
+    dis h g' fis? e c, r2
+    r1 r2 r4 e'
+    c a e' c f d, r2 %30
+    r1 r2 r4 h'
+    c c, c' h a a, r2
+    r1 r2 r4 e''
+    a a, a' g f f, r2
+    r1 r2 r4 h %35
+    c a e' e, f d' r2
+    r1 r2 r4 d
+    h e, h' e c a e'2~
+    e dis g1
+    fis2 e1 dis2 %40
+    d c h1\trill
+    a2 c d e
+    e1 d2 c
+    h1\trill a4 a'2 g!4
+    f2 f, d'4 g2 f4 %45
+    e2 c, c'4 f2 e4
+    d2 h, h'4 e2 d4
+    c2 cis dis4 fis e2~
+    e dis e e,~
+    e dis g1 %50
+    fis2 r4 cis' fis, fis' g g,
+    ais e' r2 r1
+    r2 r4 h a c fis fis,
+    h h, r2 r1
+    r2 r4 h' cis fis, fis' cis %55
+    d h' r2 r1
+    r2 r4 cis, fis fis, g e
+    fis fis' r2 r1
+    r2 r4 e fis fis, fis' e
+    dis fis2 dis4 e h'2 d,4 %60
+    c a'2 c,4 d a'2 c,4
+    h g'2 h,4 c g'2 h,4
+    a fis'2 a,4 h2-! g-!
+    a-! fis-! g-! h-!
+    e4 e e e e e e e %65
+    e e e e e e d d
+    d d d d d d d d
+    d d d d d d c2~
+    c b a d~
+    d c h e~ %70
+    e d c d4 c
+    h2. h4 c2 a~
+    a gis c1
+    h2 r4 h a c e a,
+    d d, r2 r1 %75
+    r2 r4 e' a, e' dis fis
+    g e, r2 r1
+    r2 r4 fis' h, gis' a a,
+    d d, r2 r1
+    r2 r4 gis' a e c e %80
+    a a, r2 r4 d'2 d,4
+    e h'2 d,4 c a'2 c,4
+    d a'2 c,4 h g'2 h,4
+    c g'2 h,4 a f'2 a,4
+    h h'2 a4 gis2 a~ %85
+    a gis r1
+    r2 r4 h, e h e, a-\critnote
+    e' e, r2 r1
+    r2 r4 h' e h e, c'
+    h e, r2 r r4 e' \noBreak %90
+    d c h e c1 \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      d8 d d d d d d d \noBreak
+    d d c c h h h h
+    c1\fermata \bar "|." %94 FINIS
+  }
+}

@@ -54,7 +54,7 @@ KyrieOrgano = {
     h d e gis %40
     a a, h'4 h, e e,
     h'1 e2 \clef treble e'~-\tuttiE
-    e dis << {
+    e dis \clef "treble_8" << {
       g1
       fis~ fis2 e~
       e d cis fis %45
@@ -84,7 +84,7 @@ KyrieOrgano = {
     d e f d
     e fis g e
     fis gis a d,
-    e1 a,2 \clef treble << {
+    e1 a,2 \clef "treble_8" << {
       a''~ %65
       a gis c
     } \\ {
@@ -1670,4 +1670,233 @@ OsannaBassFigures = \figuremode {
   r1 <_+>
   <4>2 <_+>1 <6 5!>2 %145
   <9> <8> <6 4>4 <5 _+>8 <4 2> <5 _+>4 %146 finis
+}
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoAgnus
+    \mvTr a4\fE-\tuttiE a'2 gis4
+    a a8 g f2
+    e1
+    a,4 a' e2
+    f fis %5
+    g gis
+    a4 d, e2
+    a,4 a' e2
+    f g4. f8
+    e c e f g4 f %10
+    e2 d
+    c4 c' g gis
+    a2 e
+    a,4 a'8 fis dis2
+    e e8 fis gis e %15
+    a4 e f2
+    e r\fermata \bar "||" %17 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2 <4 2>4 <6 5>
+  r4. <6>8 <7>4 <6>
+  <7 _+> <6 4> <5 \t> <\t _+>
+  r2 <6 _!>
+  r <6> %5
+  r <6 5>
+  r4 <7> <4> <_+>
+  r2 <4>4 <_!>
+  <7> <6>8 <5> <4>4 <3>
+  <7>8 <\t> <6>2 <5 3>8 <6 4> %10
+  <6>2 <7>4 <6>
+  r2 <4>4 <6 5>
+  <9> <8> <4> <_+>
+  r2 <7 _+>
+  <_+>1 %15
+  r4 <_+> <7> <6>
+  <_+>1 %17 finis
+}
+
+DonaOrgano = {
+  \relative c {
+    \clef treble
+    \key a \minor \time 2/1 \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    r2 \mvTr a''1\fE-\tuttiE gis2 \noBreak
+    c1 h2 a~
+    a gis a << {
+      e'~ %20
+      e dis g1
+      fis2 e1 dis2
+      d4 h c2 h1
+      a2
+    } \\ {
+      g
+      fis1 h2 a~
+      a g fis1
+      gis2 a1 gis2
+      a
+    } >> \clef bass a,1 gis2
+    c1 h2 a~ %25
+    a gis a g
+    fis1 e4 fis g a
+    h2 g a h
+    gis4 e a2 e1
+    a, r2 a' %30
+    h2. a4 gis2. e4
+    a2. g4 f2. d4
+    g2. f4 e2. c4
+    f2. e4 d2. h4
+    e2 a e1 %35
+    a,2 c-\solo d e
+    a, a'2. g!4 f d
+    e2 e, a1
+    R\breve*3 %41
+    r2 a'1 gis2
+    c1 h2 a~
+    a gis a4 g f e
+    d2 f g h, %45
+    c e f a,
+    h d e gis
+    a a, h'4 h, e e,
+    h'1 e2 \clef treble e'~-\tuttiE
+    e dis \clef "treble_8" << {
+      g1 %50
+      fis~ fis2 e~
+      e d cis fis
+      dis4 h e1 dis2
+      e
+    } \\ {
+      r2 h~ %50
+      h ais d1
+      cis2 h1 ais2
+      a g fis1
+      g2
+    } >> \clef bass e1 dis2
+    g1 fis~ %55
+    fis2 e1 d!2
+    cis fis dis4 h e2~
+    e dis e h'
+    c4 c, c'2. h4 a2~
+    a4 fis h2. a4 g2~ %60
+    g4 e a2. g4 fis2~
+    fis4 d g2. fis4 e2~
+    e4 c fis2 dis e~
+    e dis e1
+    d c %65
+    cis d
+    c h~
+    h c2 c
+    d e f d
+    e fis g e %70
+    fis gis a d,
+    e1 a,2 \clef "treble_8" << {
+      a''~
+      a gis c
+    } \\ {
+      a,2_\critnote
+      h1 a4 h
+    } >> \clef bass a2~
+    a gis c1
+    h2 a1 gis2 %75
+    a g \once \tieDashed fis~ fis
+    e4 fis g a h2 g
+    a h gis4 e a2
+    f4 d g2 e4 c f2
+    d e a, r %80
+    r a' h2. a4
+    gis2. e4 a2. g?4
+    f2. d4 g2. f4
+    e2. c4 f2. e4
+    d1 e2 a, %85
+    \tieDashed e'\breve~
+    e~
+    e~
+    e~
+    e1 \tieSolid a,2 c \noBreak %90
+    d e a,1 \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      d8 d d d d d d d \noBreak
+    e e e e e e, e e
+    a1\fermata \bar "|." %94 FINIS
+  }
+}
+
+DonaBassFigures = \figuremode {
+  r\breve %18
+  r
+  r %20
+  r
+  r
+  r
+  r2 <3> <2> <[6]>
+  <7> <6> <6\\>1 %25
+  <2>2 <[6]>1 <6>2
+  <7> <6\\> r1
+  <[5+] _+>2 <6> <6\\ 5> <[5+] _+>
+  <6 5!>1 <4>2 <_+>
+  r1. <[6]>2 %30
+  <7>4 <6> <5> <\t> <5>2 <6>4 <_+>
+  r1 <5>2 <6>
+  r1 <5>2 <6>
+  r1 <5>2 <6>
+  <_+>1 <4>2 <_+> %35
+  r <[6]>1 <_+>2
+  r <3> <2> <6>
+  <4> <_+>1.
+  r\breve*3 %41
+  r2 <3> <2> <[6]>
+  <7> <6> <6\\>1
+  <2>2 <[6]>1.
+  r2 <6>1 q2 %45
+  r q1 q2
+  <5+> <6 _+> <_+> <6>
+  r <_+> <[5+] _+> <[_!]>
+  \bo <[5+] 4> \bc <[\t] _+> r1
+  r\breve %50
+  r
+  r
+  r
+  r2 <3> <2+> <6 [_+]>
+  \bo <[7+]> <6> <5+ 4>2 \bc <[\t] _+> %55
+  <[2]> <7 3> <6+ 4+ [2+]> <6 [_+]>
+  <7> <[7 5+] _+> <6 5! [_+]>1
+  <2+>2 <[6 _+]>1 <[5+] _+>2
+  <5>1 <6 4+>4 <\t \t> <8 6\\> <7 5>
+  <6\\ 4+>2 <\t \t> <6 4>4 <\t \t> <8 6> <7+ 5> %60
+  <6 4>2 <\t \t> <6+ 4>4 <\t \t> <8 6> <7 5>
+  <6 4>2 <\t \t> <6 4>4 <\t \t> <8 6> <7 5>
+  <6 4>2 <\t \t> <6 [_+]>1
+  <2+>2 <[6 _+]>1.
+  <4+ 2>1 <6> %65
+  <6>2 <5!> <9 _!> <6>
+  <6 4+>1 <6>
+  <\t>2 <5!> <9> <8>
+  <7> <5->1 <_+>2
+  <7> <5> <_!> <_+> %70
+  <7> <5>1.
+  <4>2 <_+>1.
+  r\breve
+  <2>2 <[6]> <7> <6>
+  <6\\> <3> <2> <[6]> %75
+  r <6> <7 5+> <6\\>
+  r <6> <[5+] _+> <6>
+  <6\\> <[5+] _+> <6 [5!]>1
+  <6 5>2 <5> <6 5> <5>
+  <6 5> <_+>1. %80
+  r2 <6> <5>1
+  <5>2 <6>4 <_+> r1
+  <5>2 <6>1.
+  <5>2 <6>1.
+  <5>2 <6> <_+>1 %85
+  <4>2 <_+> <6 4>1
+  <5 4>2 <\t _+> <6 5> <\t 4>
+  <5 \t> <\t _+> <\t \t> <8 6 4>
+  <7 \t \t> <\t 5 _+> <6 5> <\t 4>
+  <4> <_+>1 <[6]>2 %90
+  <6 5> <_+>1.
+  r2 <6->4 <6- 5>
+  <7 [5!] _+> <6 4> <5 \t> <\t _+>
+  r1 %94 FINIS
 }

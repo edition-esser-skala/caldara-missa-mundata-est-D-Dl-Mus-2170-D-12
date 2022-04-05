@@ -971,3 +971,176 @@ OsannaTenoreLyrics = \lyricmode {
   \xE sis, in ex -- %145
   cel -- _ _ sis. \x %146 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr c8\fE^\tuttiE c d4 d8^\critnote d
+    c4 c8 c c4 d8 d
+    e4 e e2
+    e4 r r c8 c
+    c4 c r d8 d %5
+    d4 d r d8 d
+    c4 f h,4( e)
+    e4 e4. h8[( e d])
+    c4 d4. g,8 d'4~
+    d c r8 h c d %10
+    e([ d c e] f[ e] d4)
+    e2 r
+    R1
+    r4 e8 fis fis4 fis
+    e2 h8([ a)] gis h %15
+    a4 h a2
+    h r\fermata \bar "||" %17 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %5
+  re -- re, mi -- se --
+  re -- re no --
+  bis. A -- gnus __
+  De -- i, qui tol --
+  lis pec -- ca -- ta %10
+  mun --
+  di:
+
+  A -- gnus De -- i,
+  qui tol -- lis pec -- %15
+  ca -- ta mun --
+  di: %17 finis
+}
+
+DonaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 2/1 \autoBeamOff \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+      R\breve*8 %25
+    r1 r2 \mvTr e~\fE^\tuttiE
+    e dis g1
+    fis2 e1 dis2
+    d4 e c2 h1
+    \once \tieDashed c2~ c c c( %30
+    d2.) c4 h2. gis?4
+    c2. h4 a2. f4
+    h2. a4 g2. e4
+    a2. g4 f f'2 d4
+    h2 c h1 %35
+    c r
+    R\breve*13 %49
+    r1 r2 h~ %50
+    h2 ais d1
+    cis2 h1 ais2
+    a g fis1
+    g2 g( a) h
+    h1 cis %55
+    h( ais2) h
+    cis1 h
+    a g2 dis'
+    e1 c~
+    c2 h h1( %60
+    a) a
+    g g
+    fis a2 g
+    h1 h2 e~
+    e e e e %65
+    e1 a,2 a~
+    a1 h2 h~
+    h g c c
+    c1. d2
+    h a d e %70
+    e1. f2
+    e2.( d4 c2) a
+    h1 a4 h c a
+    d2 e a, e'(
+    d) c d e4( d) %75
+    c2( h a1)
+    e' dis2( e)
+    fis1 e
+    d! c(
+    h) c %80
+    c( d2.) c4
+    h2. gis?4 c2. h4
+    a2. f4 h2. a4
+    g2. e4 a2. g4
+    f d d' c h2 a %85
+    h e, e'2. d8[ c]
+    d4 h e d c h c d
+    e2. d8[ c] h2 a~
+    a h c4 h c d
+    e1~ e2. d8[ c] \noBreak %90
+    h1 a \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      r4 a8 a b2( \noBreak
+    h4) c8([ d)] e2
+    e1\fermata \bar "|." %94 FINIS
+  }
+}
+
+DonaTenoreLyrics = \lyricmode {
+  Do -- %26
+  na no --
+  bis pa -- _
+  _ _ _ _
+  _ cem, do -- %30
+  na no -- bis,
+  do -- na pa -- _
+  _ _ _ _
+  _ _ _ _ _
+  _ _ _ %35
+  cem.
+
+  Do -- %50
+  na no --
+  bis pa -- _
+  _ _ _
+  cem, do -- na
+  pa -- cem, %55
+  do -- na
+  no -- bis
+  pa -- cem, do --
+  _ _
+  na, do -- %60
+  na
+  no -- bis
+  pa -- _ _
+  _ cem, do --
+  na no -- bis %65
+  pa -- cem, \xE pa --
+  cem, \x do --
+  na no -- bis,
+  do -- na
+  no -- bis, do -- na %70
+  no -- bis
+  pa -- cem,
+  pa -- _ _ _ _
+  _ _ cem, do --
+  na no -- bis %75
+  pa --
+  cem, do --
+  na no --
+  bis pa --
+  cem, %80
+  do -- na
+  no -- bis, do -- na
+  pa -- _ _ _
+  _ _ _ _
+  _ _ _ _ _ _ %85
+  _ cem, pa -- _
+  _ _ _ _ _ _ _ _
+  _ _ _ _
+  _ _ _ _ _
+  _ _ %90
+  _ cem,
+  do -- na no --
+  bis pa --
+  cem. %94 FINIS
+}

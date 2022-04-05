@@ -1190,3 +1190,193 @@ OsannaAltoLyrics = \lyricmode {
   _ sis, in ex -- %145
   cel -- sis. %146 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr e8\fE^\tuttiE e f4 e8^\critnote e
+    e4 e8 e a4 a8 a
+    gis4 a a( gis)
+    a r r g8 g
+    a4 a r a8 a %5
+    h4 h r h,8 h
+    c a \once \tieDashed a'4~ a gis
+    a r h2
+    a g
+    g4 r r2 %10
+    r8 g g g f2
+    g4 g8 c c c h h
+    h4 a a( gis)
+    a a8 a a4 a
+    gis gis8 gis gis([ a)] h gis %15
+    a4( gis a2)
+    gis r\fermata \bar "||" %17 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %5
+  re -- re, mi -- se --
+  re -- re no -- _
+  bis. A --
+  gnus De --
+  i, %10
+  pec -- ca -- ta mun --
+  di: Mi -- se -- re -- re, mi -- se --
+  re -- re no --
+  bis. A -- gnus De -- i,
+  qui tol -- lis pec -- ca -- ta %15
+  mun --
+  di: %17 finis
+}
+
+DonaAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 2/1 \autoBeamOff \tempoDona
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #18
+    r2 \mvTr a'1\fE^\tuttiE gis2
+    c1 h2 a~
+    a gis a g %20
+    fis1 h2 a~
+    a g fis1
+    gis2( a1 gis2)
+    a a h1~
+    h2 a gis a %25
+    h1 a
+    fis4 g! a2 h h,4 cis?
+    dis e8[ fis?] g2 fis1
+    e\breve~
+    e2 a, a'1~ %30
+    a4 g f2 e1~
+    e d~
+    d c~
+    c h
+    \once \tieDashed e~ e %35
+    e r
+    R\breve*12 %48
+    r1 r2 e~
+    e dis g1 %50
+    fis1. e2~
+    e d cis fis
+    dis4 h e1 dis2
+    e e fis1~
+    fis2 e fis1 %55
+    g fis
+    e( fis2) e
+    c( h) h h'4( a
+    g2.) g4 a2. g4
+    fis2. dis4 g2. fis4 %60
+    e2. c4 fis2. e4
+    d2. h4 e2. d4
+    c2. a4 fis'2 e
+    fis1 e2 g
+    gis1 a~ %65
+    a2 g f!1
+    fis g~
+    g2 f e1
+    f2 g a fis
+    g a h gis %70
+    a h c a~
+    a gis a a~
+    a gis c1
+    h1. a2
+    gis a h1 %75
+    a\breve
+    h1 h(
+    c2) h1 a2~
+    a g!1 f!2~
+    f e e a~ %80
+    a4 g f e d e f2 \noBreak
+    e1 e
+    c d
+    c2. e4 c1
+    h1. a'2~ %85
+    a gis c1
+    h1. a2~
+    a gis1 c2~
+    c h1 a2~
+    a gis a a~ \noBreak %90
+    a gis a1 \bar "|"
+    \time 4/4 \tempoDonaB
+      \unset Staff.timeSignatureFraction
+      r4 f8 f f4 a \noBreak
+    gis4( a2 gis4)
+    a1\fermata \bar "|." %94 FINIS
+  }
+}
+
+DonaAltoLyrics = \lyricmode {
+  Do -- na %18
+  no -- bis pa --
+  _ _ cem, %20
+  do -- na no --
+  _ bis
+  pa --
+  cem, do -- _
+  na no -- bis %25
+  pa -- _
+  _ _ _ \xE cem, pa -- _
+  _ _ _ _
+  _
+  \x cem, pa -- %30
+  _ _ _
+  _
+  _
+  _
+  _ %35
+  cem.
+
+  Do -- %49
+  na no -- %50
+  bis pa --
+  _ _ _
+  _ _ _ _
+  cem, pa -- _
+  _ cem, %55
+  do -- na
+  no -- bis
+  pa -- cem, do --
+  na, do -- na
+  no -- bis, do -- na %60
+  pa -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ cem, do --
+  na, do -- %65
+  na no --
+  bis, do --
+  na pa --
+  _ _ _ _
+  _ _ _ _ %70
+  _ _ _ _
+  _ cem, do --
+  na no --
+  _ bis
+  pa -- _ _ %75
+  _
+  cem, do --
+  na no --
+  bis pa --
+  cem, pa -- _ %80
+  _ _ _ _ _ _
+  _ cem,
+  do -- na
+  no -- bis pa --
+  cem, do -- %85
+  na no --
+  bis, do --
+  na no --
+  bis pa --
+  _ cem, pa -- %90
+  _ cem,
+  do -- na no -- bis
+  pa --
+  cem. %94 FINIS
+}
